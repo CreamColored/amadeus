@@ -1,0 +1,57 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<!DOCTYPE mapper PUBLIC "-//mybatis.org//DTD Mapper 3.0//EN" "http://mybatis.org/dtd/mybatis-3-mapper.dtd" >
+<mapper namespace="com.amadeus.web.dao.CourseCommentMapper">
+    <resultMap id="BaseResultMap" type="com.amadeus.framework.domain.course.CourseComment">
+        <id column="comment_id" property="commentId" jdbcType="CHAR"/>
+        <result column="content" property="content" jdbcType="VARCHAR"/>
+        <result column="publish_time" property="publishTime" javaType="java.util.Date" jdbcType="TIMESTAMP"/>
+        <association property="courseInfo" javaType="com.amadeus.framework.domain.course.CourseInfo">
+            <id column="course_id" property="courseId" jdbcType="CHAR"/>
+            <result column="course_name" property="courseName" jdbcType="VARCHAR"/>
+            <result column="description" property="description" jdbcType="VARCHAR"/>
+            <result column="favor_number" property="favorNumber" jdbcType="INTEGER"/>
+            <result column="click_number" property="clickNumber" jdbcType="INTEGER"/>
+            <result column="course_level" property="courseLevel" jdbcType="VARCHAR"/>
+            <result column="course_state" property="courseState" jdbcType="TINYINT"/>
+            <result column="release_date" property="releaseDate" jdbcType="DATE"/>
+        </association>
+        <association property="studentLogin" javaType="com.amadeus.framework.domain.student.StudentLogin">
+            <id column="student_id" property="studentId" jdbcType="CHAR"/>
+            <result column="telephone_number" property="telephoneNumber" jdbcType="CHAR"/>
+            <result column="email" property="email" jdbcType="VARCHAR"/>
+            <result column="password" property="password" jdbcType="CHAR"/>
+            <result column="account_state" property="accountState" jdbcType="TINYINT"/>
+            <result column="activation_state" property="activationState" jdbcType="TINYINT"/>
+            <collection property="studentInfo" ofType="com.amadeus.framework.domain.student.StudentInfo">
+                <id column="info_id" property="infoId" jdbcType="CHAR"/>
+                <result column="student_name" property="studentName" jdbcType="VARCHAR"/>
+                <result column="certificate_type" property="certificateType" jdbcType="TINYINT"/>
+                <result column="certificate_code" property="certificateCode" jdbcType="VARCHAR"/>
+                <result column="gender" property="gender" jdbcType="VARCHAR"/>
+                <result column="province" property="province" jdbcType="VARCHAR"/>
+                <result column="city" property="city" jdbcType="VARCHAR"/>
+                <result column="avatar" property="avatar" jdbcType="VARCHAR"/>
+                <result column="user_point" property="userPoint" jdbcType="INTEGER"/>
+                <result column="user_balance" property="userBalance" jdbcType="DECIMAL"/>
+                <result column="birthday" property="birthday" jdbcType="DATE"/>
+                <result column="member_level" property="memberLevel" jdbcType="TINYINT"/>
+            </collection>
+        </association>
+    </resultMap>
+
+    <select id="findCommentByCourseId" resultMap="BaseResultMap" parameterType="java.lang.String">
+        select
+        cc.content,cc.publish_time,sl.student_id,si.avatar,si.student_name
+        from course_info c,course_comment cc,student_login sl,student_info si
+        where c.course_id=cc.course_id and cc.student_id=sl.student_id and sl.student_id=si.student_id and c.course_id=#{courseId}
+        order by cc.publish_time
+        desc
+    </select>
+
+    <insert id="insertComment">
+        insert into course_comment(comment_id, content, publish_time, course_id, student_id)
+        values (#{courseComment.commentId},#{courseComment.content},#{courseComment.publishTime},#{courseId},#{studentId})
+    </insert>
+
+
+</mapper>

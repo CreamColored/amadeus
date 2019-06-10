@@ -1,0 +1,56 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<!DOCTYPE mapper PUBLIC "-//mybatis.org//DTD Mapper 3.0//EN" "http://mybatis.org/dtd/mybatis-3-mapper.dtd" >
+<mapper namespace="com.amadeus.web.dao.StudentInfoMapper">
+    <resultMap id="BaseResultMap" type="com.amadeus.framework.domain.student.StudentInfo">
+        <id column="info_id" property="infoId" jdbcType="CHAR"/>
+        <result column="student_name" property="studentName" jdbcType="VARCHAR"/>
+        <result column="certificate_type" property="certificateType" jdbcType="TINYINT"/>
+        <result column="certificate_code" property="certificateCode" jdbcType="VARCHAR"/>
+        <result column="gender" property="gender" jdbcType="VARCHAR"/>
+        <result column="province" property="province" jdbcType="VARCHAR"/>
+        <result column="city" property="city" jdbcType="VARCHAR"/>
+        <result column="avatar" property="avatar" jdbcType="VARCHAR"/>
+        <result column="user_point" property="userPoint" jdbcType="INTEGER"/>
+        <result column="user_balance" property="userBalance" jdbcType="DECIMAL"/>
+        <result column="birthday" property="birthday" jdbcType="DATE"/>
+        <result column="member_level" property="memberLevel" jdbcType="TINYINT"/>
+    </resultMap>
+    <resultMap id="O2MResultMap" type="com.amadeus.framework.domain.student.StudentInfo" extends="BaseResultMap">
+        <!--BaseResultMap-->
+    </resultMap>
+
+    <sql id="Base_Column_List">
+        info_id,student_name,certificate_type,certificate_code,gender,province,city,avatar,user_point,user_balance,birthday,member_level
+    </sql>
+    <!--更新用户余额-->
+    <update id="updateBalance">
+        update student_info set user_balance=user_balance-#{balance} where student_id=#{studentId}
+    </update>
+    <!--更新用户积分-->
+    <update id="updatePoint">
+        update student_info set user_point=user_point-#{point} where student_id=#{studentId}
+    </update>
+    <select id="findAll" resultMap="BaseResultMap">
+        select
+        <include refid="Base_Column_List"></include>
+        from student_info
+    </select>
+    <update id="updateAccountState" parameterType="com.amadeus.framework.domain.student.StudentLogin">
+        update student_login
+        set account_state=#{accountState,jdbcType=INTEGER}
+        where student_id=#{studentId,jdbcType=CHAR}
+    </update>
+
+    <select id="getTotalNumber" resultType="java.lang.Integer">
+        select COUNT(*) from student_info
+    </select>
+    <!--修改头像-->
+    <update id="updateAvatar">
+        update student_info set avatar=#{imgUrl} where student_id=#{studentId}
+    </update>
+    <!--余额充值-->
+    <update id="recharge">
+        update student_info set user_balance=user_balance+#{money} where student_id=#{studentId}
+    </update>
+
+</mapper>

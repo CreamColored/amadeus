@@ -1,0 +1,36 @@
+server:
+  port: 65532
+spring:
+  application:
+    name: amadeus-service-fastdfs
+  servlet:
+    multipart:
+      location: D:/JetBrains/IdeaProjects/temp/
+  jmx:
+    enabled: false
+
+eureka:
+  client:
+    register-with-eureka: true
+    fetch-registry: true
+    service-url:
+      defaultZone: ${EUREKA_SERVER:http://localhost:60001/eureka/,http://localhost:60002/eureka/}
+    healthcheck:
+      enabled: false
+  instance:
+    prefer-ip-address: true
+    ip-address: ${IP_ADDRESS:127.0.0.1}
+    instance-id: ${spring.application.name}:${server.port}
+fdfs:
+  connect-timeout: 600
+  so-timeout: 1500
+  tracker-list: 39.96.200.195:22122
+  thumb-image:
+    height: 150
+    width: 150
+  pool:
+    max-total: 200
+  web-server-url: http://39.96.200.195:8888/
+  resHost: 39.96.200.195
+  storagePort: 8888
+

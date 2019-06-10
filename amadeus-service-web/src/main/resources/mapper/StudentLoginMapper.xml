@@ -1,0 +1,50 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<!DOCTYPE mapper PUBLIC "-//mybatis.org//DTD Mapper 3.0//EN" "http://mybatis.org/dtd/mybatis-3-mapper.dtd" >
+<mapper namespace="com.amadeus.web.dao.StudentLoginMapper">
+    <resultMap id="BaseResultMap" type="com.amadeus.framework.domain.student.StudentLogin">
+        <id column="student_id" property="studentId" jdbcType="CHAR"/>
+        <result column="telephone_number" property="telephoneNumber" jdbcType="CHAR"/>
+        <result column="email" property="email" jdbcType="VARCHAR"/>
+        <result column="password" property="password" jdbcType="CHAR"/>
+        <result column="account_state" property="accountState" jdbcType="TINYINT"/>
+        <result column="activation_state" property="activationState" jdbcType="TINYINT"/>
+    </resultMap>
+    <resultMap id="O2OInfoResultMap" type="com.amadeus.framework.domain.student.StudentLogin" extends="BaseResultMap">
+        <!--BaseResultMap-->
+        <collection property="studentInfo" ofType="com.amadeus.framework.domain.student.StudentInfo">
+            <id column="info_id" property="infoId" jdbcType="CHAR"/>
+            <result column="student_name" property="studentName" jdbcType="VARCHAR"/>
+            <result column="certificate_type" property="certificateType" jdbcType="TINYINT"/>
+            <result column="certificate_code" property="certificateCode" jdbcType="VARCHAR"/>
+            <result column="gender" property="gender" jdbcType="VARCHAR"/>
+            <result column="province" property="province" jdbcType="VARCHAR"/>
+            <result column="city" property="city" jdbcType="VARCHAR"/>
+            <result column="avatar" property="avatar" jdbcType="VARCHAR"/>
+            <result column="user_point" property="userPoint" jdbcType="INTEGER"/>
+            <result column="user_balance" property="userBalance" jdbcType="DECIMAL"/>
+            <result column="birthday" property="birthday" jdbcType="DATE"/>
+            <result column="member_level" property="memberLevel" jdbcType="TINYINT"/>
+        </collection>
+    </resultMap>
+
+    <update id="updateAccountState" parameterType="com.amadeus.framework.domain.student.StudentLogin">
+        update student_login
+        set account_state=#{accountState,jdbcType=INTEGER}
+        where student_id=#{studentId,jdbcType=CHAR}
+    </update>
+
+    <update id="update" parameterType="com.amadeus.framework.domain.student.StudentLogin">
+        update student_login sl,student_info si
+        set sl.email=#{studentLogin.email},
+            si.birthday=#{studentLogin.studentInfo.birthday},
+            si.certificate_type=#{studentLogin.studentInfo.certificateType},
+            si.certificate_code=#{studentLogin.studentInfo.certificateCode},
+            si.student_name=#{studentLogin.studentInfo.studentName},
+            si.gender=#{studentLogin.studentInfo.gender},
+            si.province=#{studentLogin.studentInfo.province},
+            si.city=#{studentLogin.studentInfo.city}
+        where si.student_id=sl.student_id
+        and sl.student_id=#{studentLogin.studentId}
+    </update>
+
+</mapper>

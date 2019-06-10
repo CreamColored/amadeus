@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<!DOCTYPE mapper PUBLIC "-//mybatis.org//DTD Mapper 3.0//EN" "http://mybatis.org/dtd/mybatis-3-mapper.dtd" >
+<mapper namespace="com.amadeus.web.dao.CollegeMapper">
+    <resultMap id="BaseResultMap" type="com.amadeus.framework.domain.college.CollegeInfo">
+        <id column="college_id" property="collegeId" jdbcType="CHAR"/>
+        <result column="college_name" property="collegeName" jdbcType="VARCHAR"/>
+        <result column="college_motto" property="collegeMotto" jdbcType="VARCHAR"/>
+        <result column="province" property="province" jdbcType="VARCHAR"/>
+        <result column="city" property="city" jdbcType="VARCHAR"/>
+        <result column="district" property="district" jdbcType="VARCHAR"/>
+        <result column="college_state" property="college_state" jdbcType="TINYINT"/>
+        <result column="college_badge" property="collegeBadge" jdbcType="VARCHAR"/>
+        <result column="description" property="description" jdbcType="VARCHAR"/>
+    </resultMap>
+
+    <resultMap id="O2OAdminResultMap" type="com.amadeus.framework.domain.college.CollegeInfo" extends="BaseResultMap">
+
+    </resultMap>
+
+    <update id="updateState" parameterType="com.amadeus.framework.domain.college.CollegeInfo">
+        update college_info
+        set college_state=#{collegeState,jdbcType=INTEGER}
+        where college_id=#{collegeId,jdbcType=CHAR}
+    </update>
+
+    <delete id="deleteByCollegeId" parameterType="java.lang.String">
+        delete from college_info
+        where college_id=#{collegeId,jdbcType=CHAR}
+    </delete>
+
+    <update id="update" parameterType="com.amadeus.framework.domain.college.CollegeInfo">
+        update college_info
+        set
+        college_name=#{collegeName,jdbcType=VARCHAR},
+        college_motto=#{collegeMotto,jdbcType=VARCHAR},
+        college_badge=#{collegeBadge,jdbcType=VARCHAR},
+        province=#{province,jdbcType=VARCHAR},
+        city=#{city,jdbcType=VARCHAR},
+        district=#{district,jdbcType=VARCHAR},
+        description=#{description,jdbcType=VARCHAR}
+        where college_id=#{collegeId,jdbcType=CHAR}
+    </update>
+</mapper>

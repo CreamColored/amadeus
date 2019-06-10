@@ -1,0 +1,11 @@
+server:
+  port: 8081
+spring:
+  application:
+    name: test-kafka-consumer
+  kafka:
+    consumer:
+      enable-auto-commit: true
+      group-id: test
+      auto-offset-reset: latest
+      bootstrap-servers: 39.96.200.195:9092

@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ProjectModuleManager">
+    <modules>
+      <module fileurl="file://$PROJECT_DIR$/.idea/amadeus.iml" filepath="$PROJECT_DIR$/.idea/amadeus.iml" />
+      <module fileurl="file://$PROJECT_DIR$/amadeus-eureka-center/amadeus-eureka-center.iml" filepath="$PROJECT_DIR$/amadeus-eureka-center/amadeus-eureka-center.iml" />
+      <module fileurl="file://$PROJECT_DIR$/amadeus-framework-common/amadeus-framework-common.iml" filepath="$PROJECT_DIR$/amadeus-framework-common/amadeus-framework-common.iml" />
+      <module fileurl="file://$PROJECT_DIR$/amadeus-framework-model/amadeus-framework-model.iml" filepath="$PROJECT_DIR$/amadeus-framework-model/amadeus-framework-model.iml" />
+      <module fileurl="file://$PROJECT_DIR$/amadeus-framework-parent/amadeus-framework-parent.iml" filepath="$PROJECT_DIR$/amadeus-framework-parent/amadeus-framework-parent.iml" />
+      <module fileurl="file://$PROJECT_DIR$/amadeus-framework-utils/amadeus-framework-utils.iml" filepath="$PROJECT_DIR$/amadeus-framework-utils/amadeus-framework-utils.iml" />
+      <module fileurl="file://$PROJECT_DIR$/amadeus-service-api/amadeus-service-api.iml" filepath="$PROJECT_DIR$/amadeus-service-api/amadeus-service-api.iml" />
+      <module fileurl="file://$PROJECT_DIR$/amadeus-service-fastdfs/amadeus-service-fastdfs.iml" filepath="$PROJECT_DIR$/amadeus-service-fastdfs/amadeus-service-fastdfs.iml" />
+      <module fileurl="file://$PROJECT_DIR$/amadeus-service-sso/amadeus-service-sso.iml" filepath="$PROJECT_DIR$/amadeus-service-sso/amadeus-service-sso.iml" />
+      <module fileurl="file://$PROJECT_DIR$/amadeus-service-web/amadeus-service-web.iml" filepath="$PROJECT_DIR$/amadeus-service-web/amadeus-service-web.iml" />
+      <module fileurl="file://$PROJECT_DIR$/test-fastdfs/test-fastdfs.iml" filepath="$PROJECT_DIR$/test-fastdfs/test-fastdfs.iml" />
+      <module fileurl="file://$PROJECT_DIR$/test-kafka/test-kafka.iml" filepath="$PROJECT_DIR$/test-kafka/test-kafka.iml" />
+      <module fileurl="file://$PROJECT_DIR$/test-kafka-consumer/test-kafka-consumer.iml" filepath="$PROJECT_DIR$/test-kafka-consumer/test-kafka-consumer.iml" />
+      <module fileurl="file://$PROJECT_DIR$/test-mail/test-mail.iml" filepath="$PROJECT_DIR$/test-mail/test-mail.iml" />
+    </modules>
+  </component>
+</project>

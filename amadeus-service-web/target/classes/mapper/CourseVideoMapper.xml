@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<!DOCTYPE mapper PUBLIC "-//mybatis.org//DTD Mapper 3.0//EN" "http://mybatis.org/dtd/mybatis-3-mapper.dtd" >
+<mapper namespace="com.amadeus.web.dao.CourseVideoMapper">
+    <resultMap id="BaseResultMap" type="com.amadeus.framework.domain.course.CourseVideo">
+        <result column="video_id" property="videoId" jdbcType="CHAR"/>
+        <result column="size" property="size" jdbcType="BIGINT"/>
+        <result column="chapter" property="chapter" jdbcType="TINYINT"/>
+        <result column="name" property="name" jdbcType="VARCHAR"/>
+        <result column="url" property="url" jdbcType="VARCHAR"/>
+        <result column="format" property="format" jdbcType="VARCHAR"/>
+    </resultMap>
+    <resultMap id="O2MCourseInfoResultMap" type="com.amadeus.framework.domain.course.CourseVideo" extends="BaseResultMap">
+        <association property="courseInfo" column="course_id" javaType="CourseInfo">
+            <id column="course_id" property="courseId" jdbcType="CHAR"/>
+            <result column="course_name" property="courseName" jdbcType="VARCHAR"/>
+            <result column="description" property="description" jdbcType="VARCHAR"/>
+            <result column="favor_number" property="favorNumber" jdbcType="INTEGER"/>
+            <result column="click_number" property="clickNumber" jdbcType="INTEGER"/>
+            <result column="course_level" property="courseLevel" jdbcType="VARCHAR"/>
+            <result column="course_state" property="courseState" jdbcType="TINYINT"/>
+            <result column="release_date" property="releaseDate" jdbcType="DATE"/>
+        </association>
+    </resultMap>
+    <insert id="insert" parameterType="com.amadeus.framework.domain.course.CourseVideo">
+        insert into course_video(video_id, size, chapter, name, url, format, course_id)
+        values(#{videoId},#{size},#{chapter},#{name},#{url},#{format},#{courseInfo.courseId})
+    </insert>
+
+</mapper>

@@ -1,0 +1,74 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="CompilerConfiguration">
+    <annotationProcessing>
+      <profile name="Maven default annotation processors profile" enabled="true">
+        <sourceOutputDir name="target/generated-sources/annotations" />
+        <sourceTestOutputDir name="target/generated-test-sources/test-annotations" />
+        <outputRelativeToContentRoot value="true" />
+        <module name="amadeus-service-fastdfs" />
+        <module name="test-kafka-consumer" />
+        <module name="amadeus-eureka-center" />
+        <module name="test-kafka" />
+        <module name="amadeus-framework-common" />
+        <module name="amadeus-service-api" />
+        <module name="amadeus-service-sso" />
+        <module name="test-fastdfs" />
+        <module name="test-mail" />
+        <module name="amadeus-service-web" />
+        <module name="amadeus-framework-model" />
+        <module name="amadeus-framework-parent" />
+        <module name="amadeus-framework-utils" />
+      </profile>
+    </annotationProcessing>
+    <bytecodeTargetLevel>
+      <module name="amadeus-eureka-center" target="1.8" />
+      <module name="amadeus-framework-common" target="1.8" />
+      <module name="amadeus-framework-model" target="1.8" />
+      <module name="amadeus-framework-parent" target="1.8" />
+      <module name="amadeus-framework-utils" target="1.8" />
+      <module name="amadeus-service-api" target="1.8" />
+      <module name="amadeus-service-fastdfs" target="1.8" />
+      <module name="amadeus-service-sso" target="1.8" />
+      <module name="amadeus-service-web" target="1.8" />
+      <module name="demo" target="1.8" />
+      <module name="qcloudsms" target="1.5" />
+      <module name="sms" target="6" />
+      <module name="test" target="1.8" />
+      <module name="test-bcrypt" target="1.8" />
+      <module name="test-Bcyrpt" target="1.5" />
+      <module name="test-fastdfs" target="1.8" />
+      <module name="test-kafka" target="1.8" />
+      <module name="test-kafka-consumer" target="1.8" />
+      <module name="test-mail" target="1.8" />
+      <module name="test-mysql" target="1.8" />
+      <module name="test-sms" target="1.8" />
+      <module name="test-student-login" target="1.8" />
+      <module name="test-thymeleaf" target="1.8" />
+    </bytecodeTargetLevel>
+  </component>
+  <component name="JavacSettings">
+    <option name="ADDITIONAL_OPTIONS_OVERRIDE">
+      <module name="amadeus-eureka-center" options="-parameters" />
+      <module name="amadeus-framework-common" options="-parameters" />
+      <module name="amadeus-framework-model" options="-parameters" />
+      <module name="amadeus-framework-parent" options="-parameters" />
+      <module name="amadeus-framework-utils" options="-parameters" />
+      <module name="amadeus-service-api" options="-parameters" />
+      <module name="amadeus-service-fastdfs" options="-parameters" />
+      <module name="amadeus-service-sso" options="-parameters" />
+      <module name="amadeus-service-web" options="-parameters" />
+      <module name="demo" options="-parameters" />
+      <module name="test" options="-parameters" />
+      <module name="test-bcrypt" options="-parameters" />
+      <module name="test-fastdfs" options="-parameters" />
+      <module name="test-kafka" options="-parameters" />
+      <module name="test-kafka-consumer" options="-parameters" />
+      <module name="test-mail" options="-parameters" />
+      <module name="test-mysql" options="-parameters" />
+      <module name="test-sms" options="-parameters" />
+      <module name="test-student-login" options="-parameters" />
+      <module name="test-thymeleaf" options="-parameters" />
+    </option>
+  </component>
+</project>

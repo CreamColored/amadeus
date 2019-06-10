@@ -1,0 +1,128 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<!DOCTYPE mapper PUBLIC "-//mybatis.org//DTD Mapper 3.0//EN" "http://mybatis.org/dtd/mybatis-3-mapper.dtd" >
+<mapper namespace="com.amadeus.web.dao.CourseInfoMapper">
+    <resultMap id="BaseResultMap" type="com.amadeus.framework.domain.course.CourseInfo">
+        <id column="course_id" property="courseId" jdbcType="CHAR"/>
+        <result column="course_name" property="courseName" jdbcType="VARCHAR"/>
+        <result column="description" property="description" jdbcType="VARCHAR"/>
+        <result column="favor_number" property="favorNumber" jdbcType="INTEGER"/>
+        <result column="click_number" property="clickNumber" jdbcType="INTEGER"/>
+        <result column="course_level" property="courseLevel" jdbcType="VARCHAR"/>
+        <result column="course_state" property="courseState" jdbcType="TINYINT"/>
+        <result column="release_date" property="releaseDate" jdbcType="DATE"/>
+        <collection property="courseImage" ofType="com.amadeus.framework.domain.course.CourseImage">
+            <id column="image_id" property="imageId" jdbcType="CHAR"/>
+            <result column="small_image" property="smallImage" jdbcType="VARCHAR"/>
+            <result column="medium_image" property="mediumImage" jdbcType="VARCHAR"/>
+            <result column="big_image" property="bigImage" jdbcType="VARCHAR"/>
+            <result column="banner" property="banner" jdbcType="VARCHAR"/>
+            <result column="is_banner" property="isBanner" jdbcType="TINYINT"/>
+        </collection>
+        <collection property="coursePrice" ofType="com.amadeus.framework.domain.course.CoursePrice">
+            <id column="price_id" property="priceId" jdbcType="CHAR"/>
+            <result column="is_free" property="isFree" jdbcType="TINYINT"/>
+            <result column="original_price" property="originalPrice" jdbcType="DECIMAL"/>
+            <result column="discount_price" property="discountPrice" jdbcType="DECIMAL"/>
+            <result column="point" property="point" jdbcType="INTEGER"/>
+        </collection>
+    </resultMap>
+    <resultMap id="M2OTeacherResultMap" type="com.amadeus.framework.domain.course.CourseInfo"
+               extends="BaseResultMap">
+        <association property="teacherLogin" column="teacher_id" javaType="TeacherLogin">
+            <id column="teacher_id" property="teacherId" jdbcType="CHAR"/>
+            <result column="telephone_number" property="telephoneNumber" jdbcType="CHAR"/>
+            <result column="email" property="email" jdbcType="VARCHAR"/>
+            <result column="password" property="password" jdbcType="CHAR"/>
+            <result column="account_state" property="accountState" jdbcType="INTEGER"/>
+            <result column="activation_state" property="activationState" jdbcType="INTEGER"/>
+            <collection property="teacherInfo" ofType="com.amadeus.framework.domain.teacher.TeacherInfo">
+                <id column="info_id" property="infoId" jdbcType="CHAR"/>
+                <result column="teacher_name" property="teacherName" jdbcType="VARCHAR"/>
+            </collection>
+        </association>
+    </resultMap>
+
+    <resultMap id="VideoResultMap" type="com.amadeus.framework.domain.course.CourseInfo" extends="M2OTeacherResultMap">
+        <collection property="courseVideoList" ofType="com.amadeus.framework.domain.course.CourseVideo">
+            <result column="video_id" property="videoId" jdbcType="CHAR"/>
+            <result column="size" property="size" jdbcType="BIGINT"/>
+            <result column="chapter" property="chapter" jdbcType="TINYINT"/>
+            <result column="name" property="name" jdbcType="VARCHAR"/>
+            <result column="url" property="url" jdbcType="VARCHAR"/>
+            <result column="format" property="format" jdbcType="VARCHAR"/>
+        </collection>
+    </resultMap>
+
+    <!--根据studentId查询选学课程-->
+    <select id="findCoursesByStudentId" parameterType="java.lang.String" resultMap="BaseResultMap">
+        select *
+        from student_login s
+        inner join student_course sc
+        on s.student_id = sc.student_id
+        inner join course_info ci
+        on sc.course_id = ci.course_id
+        and s.student_id=#{studentId}
+    </select>
+
+    <!--根据courseId查询课程全部信息-->
+    <select id="findCourseByCourseId" parameterType="java.lang.String" resultMap="VideoResultMap">
+        select
+        c.*,ci.*,tl.*,ti.*,cv.*,cp.*
+        from course_info c,course_image ci,teacher_login tl,teacher_info ti,course_video cv,course_price cp
+        where
+        c.teacher_id=tl.teacher_id and
+        ti.teacher_id=tl.teacher_id and
+        ci.course_id=c.course_id and
+        cv.course_id=c.course_id and
+        cp.course_id=c.course_id and
+        c.course_id=#{courseId}
+        order by cv.chapter
+        asc
+    </select>
+
+    <!--查询热门课程-->
+    <select id="findHotCourses" resultMap="BaseResultMap">
+        select
+        c.course_id,c.click_number,c.course_name,c.description,ci.small_image,cp.is_free,cp.original_price,cp.discount_price,cp.point
+        from course_info c,course_image ci,course_price cp
+        where c.course_id=ci.course_id
+        and cp.course_id=c.course_id
+        and c.course_state=1
+        order by c.click_number
+        desc
+    </select>
+
+    <!--查询精品课程-->
+    <select id="findBoutiqueCourses" resultMap="BaseResultMap">
+        select
+        c.course_id,c.click_number,c.course_name,c.description,ci.small_image,cp.is_free,cp.original_price,cp.discount_price,cp.point
+        from course_info c,course_image ci,course_price cp
+        where c.course_id=ci.course_id
+        and cp.course_id=c.course_id
+        and c.course_state=1
+        order by c.favor_number
+        desc
+    </select>
+    <!--分页查询全部课程信息-->
+    <select id="findAllCourseInfo" resultMap="M2OTeacherResultMap">
+        select
+        c.*,tl.*,ti.*
+        from course_info c,teacher_login tl,teacher_info ti
+        where c.teacher_id=tl.teacher_id and ti.teacher_id=tl.teacher_id
+    </select>
+
+    <select id="getTotalNumber" resultType="java.lang.Integer">
+        select COUNT(*) from course_info
+    </select>
+
+    <update id="updateCourseState" parameterType="com.amadeus.framework.domain.course.CourseInfo">
+        update course_info
+        set course_state=#{courseState,jdbcType=INTEGER}
+        where course_id=#{courseId,jdbcType=CHAR}
+    </update>
+
+    <delete id="deleteCourse" parameterType="java.lang.String">
+        delete from course_info
+        where course_id=#{coureId,jdbcType=CHAR}
+    </delete>
+</mapper>

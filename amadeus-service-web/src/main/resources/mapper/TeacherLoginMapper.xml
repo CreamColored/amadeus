@@ -1,0 +1,63 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<!DOCTYPE mapper PUBLIC "-//mybatis.org//DTD Mapper 3.0//EN" "http://mybatis.org/dtd/mybatis-3-mapper.dtd" >
+<mapper namespace="com.amadeus.web.dao.TeacherLoginMapper">
+    <resultMap id="BaseResultMap" type="com.amadeus.framework.domain.teacher.TeacherLogin">
+        <id column="teacher_id" property="teacherId" jdbcType="CHAR"/>
+        <result column="telephone_number" property="telephoneNumber" jdbcType="CHAR"/>
+        <result column="email" property="email" jdbcType="VARCHAR"/>
+        <result column="password" property="password" jdbcType="CHAR"/>
+        <result column="account_state" property="accountState" jdbcType="INTEGER"/>
+        <result column="activation_state" property="activationState" jdbcType="INTEGER"/>
+    </resultMap>
+    <resultMap id="CourseInfoO2MResultMap" type="com.amadeus.framework.domain.teacher.TeacherLogin"
+               extends="BaseResultMap">
+        <!--BaseResultMap-->
+        <collection property="courseInfoSet" ofType="com.amadeus.framework.domain.course.CourseInfo">
+            <id column="course_id" property="courseId" jdbcType="CHAR"/>
+            <result column="course_name" property="courseName" jdbcType="VARCHAR"/>
+            <result column="description" property="description" jdbcType="VARCHAR"/>
+            <result column="favor_number" property="favorNumber" jdbcType="INTEGER"/>
+            <result column="click_number" property="clickNumber" jdbcType="INTEGER"/>
+            <result column="course_level" property="courseLevel" jdbcType="VARCHAR"/>
+            <result column="course_state" property="courseState" jdbcType="TINYINT"/>
+            <result column="release_date" property="releaseDate" jdbcType="DATE"/>
+        </collection>
+    </resultMap>
+    <resultMap id="CollegeInfoM2OResultMap" type="com.amadeus.framework.domain.teacher.TeacherLogin"
+               extends="BaseResultMap">
+        <!--BaseResultMap-->
+        <association property="collegeInfo" column="college_id" javaType="com.amadeus.framework.domain.college.CollegeInfo">
+            <id column="college_id" property="collegeId" jdbcType="CHAR"/>
+            <result column="college_name" property="collegeName" jdbcType="VARCHAR"/>
+            <result column="college_motto" property="collegeMotto" jdbcType="VARCHAR"/>
+            <result column="province" property="province" jdbcType="VARCHAR"/>
+            <result column="city" property="city" jdbcType="VARCHAR"/>
+            <result column="district" property="district" jdbcType="VARCHAR"/>
+            <result column="college_state" property="college_state" jdbcType="TINYINT"/>
+            <result column="college_badge" property="collegeBadge" jdbcType="VARCHAR"/>
+            <result column="description" property="description" jdbcType="VARCHAR"/>
+        </association>
+    </resultMap>
+
+    <sql id="Base_Column_List">
+        teacher_id,telephone_number,email,password,account_state,activation_state
+    </sql>
+
+    <select id="findAllTeacherLogin" resultMap="CollegeInfoM2OResultMap">
+        select
+        t.*,c.college_id,c.college_name
+        from teacher_login t,college_info c
+        where t.college_id=c.college_id
+    </select>
+
+    <update id="updateAccountState" parameterType="com.amadeus.framework.domain.teacher.TeacherLogin">
+        update teacher_login
+        set account_state=#{accountState,jdbcType=INTEGER}
+        where teacher_id=#{teacherId,jdbcType=CHAR}
+    </update>
+
+    <select id="getTotalNumber" resultType="java.lang.Integer">
+        select COUNT(*) from teacher_login
+    </select>
+
+</mapper>
