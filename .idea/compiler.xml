@@ -8,16 +8,17 @@
         <outputRelativeToContentRoot value="true" />
         <module name="amadeus-service-fastdfs" />
         <module name="test-kafka-consumer" />
-        <module name="amadeus-eureka-center" />
+        <module name="amadeus-service-sso" />
         <module name="test-kafka" />
         <module name="amadeus-framework-common" />
         <module name="amadeus-service-api" />
-        <module name="amadeus-service-sso" />
+        <module name="amadeus-framework-parent" />
+        <module name="test-elasticsearch" />
+        <module name="amadeus-eureka-center" />
         <module name="test-fastdfs" />
         <module name="test-mail" />
         <module name="amadeus-service-web" />
         <module name="amadeus-framework-model" />
-        <module name="amadeus-framework-parent" />
         <module name="amadeus-framework-utils" />
       </profile>
     </annotationProcessing>
@@ -37,6 +38,7 @@
       <module name="test" target="1.8" />
       <module name="test-bcrypt" target="1.8" />
       <module name="test-Bcyrpt" target="1.5" />
+      <module name="test-elasticsearch" target="1.8" />
       <module name="test-fastdfs" target="1.8" />
       <module name="test-kafka" target="1.8" />
       <module name="test-kafka-consumer" target="1.8" />
@@ -61,6 +63,7 @@
       <module name="demo" options="-parameters" />
       <module name="test" options="-parameters" />
       <module name="test-bcrypt" options="-parameters" />
+      <module name="test-elasticsearch" options="-parameters" />
       <module name="test-fastdfs" options="-parameters" />
       <module name="test-kafka" options="-parameters" />
       <module name="test-kafka-consumer" options="-parameters" />

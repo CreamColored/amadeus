@@ -20,8 +20,9 @@
         <option value="$PROJECT_DIR$/amadeus-service-sso/pom.xml" />
         <option value="$PROJECT_DIR$/amadeus-service-web/pom.xml" />
         <option value="$PROJECT_DIR$/amadeus-service-fastdfs/pom.xml" />
+        <option value="$PROJECT_DIR$/test-elasticsearch/pom.xml" />
       </list>
     </option>
   </component>
-  <component name="ProjectRootManager" version="2" languageLevel="JDK_1_8" default="false" project-jdk-name="1.8.0_202" project-jdk-type="JavaSDK" />
+  <component name="ProjectRootManager" version="2" languageLevel="JDK_1_8" default="false" project-jdk-name="1.8" project-jdk-type="JavaSDK" />
 </project>
