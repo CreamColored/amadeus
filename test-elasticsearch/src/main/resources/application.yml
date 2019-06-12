@@ -3,3 +3,15 @@ server:
 spring:
   application:
     name: test-elasticsearch
+
+  devtools:
+    restart:
+      enabled: true
+      additional-paths: src/mian/java
+
+  data:
+    elasticsearch:
+      cluster-name: amadeus
+      cluster-nodes: 127.0.0.1:9200
+      repositories:
+        enabled: true
