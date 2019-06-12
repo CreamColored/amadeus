@@ -2,64 +2,11 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="147d6a61-3116-42b8-9679-28709b494f42" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_elasticsearch_client_elasticsearch_rest_high_level_client_7_1_1.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_elasticsearch_elasticsearch_core_7_1_1.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_elasticsearch_elasticsearch_geo_7_1_1.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_elasticsearch_plugin_aggs_matrix_stats_client_7_1_1.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_boot_spring_boot_configuration_processor_2_1_5_RELEASE.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/test-elasticsearch/src/main/java/com/amadeus/testelasticsearch/config/ElasticSearchConfiguration.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/test-elasticsearch/src/main/java/com/amadeus/testelasticsearch/controller/ElasticSearchController.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/test-elasticsearch/src/main/java/com/amadeus/testelasticsearch/entity/Employee.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__io_netty_netty_buffer_4_1_36_Final.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__io_netty_netty_codec_4_1_36_Final.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__io_netty_netty_codec_http_4_1_36_Final.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__io_netty_netty_common_4_1_36_Final.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__io_netty_netty_handler_4_1_36_Final.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__io_netty_netty_resolver_4_1_36_Final.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__io_netty_netty_transport_4_1_36_Final.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_apache_lucene_lucene_analyzers_common_7_4_0.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_apache_lucene_lucene_analyzers_common_8_0_0.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_apache_lucene_lucene_backward_codecs_7_4_0.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_apache_lucene_lucene_backward_codecs_8_0_0.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_apache_lucene_lucene_core_7_4_0.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_apache_lucene_lucene_misc_8_0_0.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_apache_lucene_lucene_grouping_7_4_0.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_apache_lucene_lucene_grouping_8_0_0.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_apache_lucene_lucene_highlighter_7_4_0.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_apache_lucene_lucene_highlighter_8_0_0.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_apache_lucene_lucene_join_7_4_0.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_apache_lucene_lucene_core_8_0_0.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_apache_lucene_lucene_memory_7_4_0.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_elasticsearch_elasticsearch_7_1_1.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_apache_lucene_lucene_misc_7_4_0.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_apache_lucene_lucene_join_8_0_0.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_apache_lucene_lucene_queries_7_4_0.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_apache_lucene_lucene_queries_8_0_0.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_apache_lucene_lucene_queryparser_7_4_0.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_apache_lucene_lucene_queryparser_8_0_0.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_apache_lucene_lucene_sandbox_7_4_0.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_apache_lucene_lucene_sandbox_8_0_0.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_apache_lucene_lucene_spatial3d_7_4_0.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_apache_lucene_lucene_spatial3d_8_0_0.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_apache_lucene_lucene_spatial_7_4_0.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_apache_lucene_lucene_spatial_8_0_0.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_apache_lucene_lucene_spatial_extras_7_4_0.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_apache_lucene_lucene_spatial_extras_8_0_0.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_apache_lucene_lucene_suggest_7_4_0.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_apache_lucene_lucene_suggest_8_0_0.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_elasticsearch_client_elasticsearch_rest_client_6_4_3.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_elasticsearch_client_elasticsearch_rest_client_7_1_1.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_elasticsearch_client_transport_6_4_3.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_elasticsearch_elasticsearch_6_4_3.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_apache_lucene_lucene_memory_8_0_0.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_elasticsearch_elasticsearch_cli_6_4_3.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_elasticsearch_elasticsearch_cli_7_1_1.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_elasticsearch_elasticsearch_core_6_4_3.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_elasticsearch_elasticsearch_secure_sm_6_4_3.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_elasticsearch_elasticsearch_secure_sm_7_1_1.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_elasticsearch_elasticsearch_x_content_6_4_3.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_elasticsearch_elasticsearch_x_content_7_1_1.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_elasticsearch_plugin_lang_mustache_client_6_4_3.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_elasticsearch_plugin_lang_mustache_client_7_1_1.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_elasticsearch_plugin_parent_join_client_6_4_3.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_elasticsearch_plugin_parent_join_client_7_1_1.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_elasticsearch_plugin_percolator_client_6_4_3.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_elasticsearch_plugin_rank_eval_client_6_4_3.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_elasticsearch_plugin_rank_eval_client_7_1_1.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_elasticsearch_plugin_reindex_client_6_4_3.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_elasticsearch_plugin_transport_netty4_client_6_4_3.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_boot_spring_boot_starter_data_elasticsearch_2_1_5_RELEASE.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_data_spring_data_commons_2_1_8_RELEASE.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_data_spring_data_elasticsearch_3_1_8_RELEASE.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_spring_tx_5_1_7_RELEASE.xml" beforeDir="false" />
+      <change afterPath="$PROJECT_DIR$/test-elasticsearch/src/main/java/com/amadeus/testelasticsearch/service/ElasticSearchService.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/test-elasticsearch/src/main/java/com/amadeus/testelasticsearch/service/impl/ElasticSearchServiceImpl.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/amadeus-framework-common/target/classes/META-INF/amadeus-framework-common.kotlin_module" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/amadeus-framework-model/target/classes/META-INF/amadeus-framework-model.kotlin_module" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/amadeus-framework-utils/target/classes/META-INF/amadeus-framework-utils.kotlin_module" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/amadeus-service-api/target/classes/META-INF/amadeus-service-api.kotlin_module" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/amadeus-service-fastdfs/target/classes/META-INF/amadeus-service-fastdfs.kotlin_module" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/amadeus-service-sso/target/classes/META-INF/amadeus-service-sso.kotlin_module" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/amadeus-service-web/target/classes/META-INF/amadeus-service-web.kotlin_module" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/test-elasticsearch/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/test-elasticsearch/pom.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/test-elasticsearch/src/main/resources/application.yml" beforeDir="false" afterPath="$PROJECT_DIR$/test-elasticsearch/src/main/resources/application.yml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/test-elasticsearch/src/test/java/com/amadeus/testelasticsearch/TestElasticsearchApplicationTests.java" beforeDir="false" afterPath="$PROJECT_DIR$/test-elasticsearch/src/test/java/com/amadeus/testelasticsearch/TestElasticsearchApplicationTests.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/test-elasticsearch/src/main/java/com/amadeus/testelasticsearch/config/ElasticSearchConfiguration.java" beforeDir="false" afterPath="$PROJECT_DIR$/test-elasticsearch/src/main/java/com/amadeus/testelasticsearch/config/ElasticSearchConfiguration.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/test-elasticsearch/src/main/java/com/amadeus/testelasticsearch/controller/ElasticSearchController.java" beforeDir="false" afterPath="$PROJECT_DIR$/test-elasticsearch/src/main/java/com/amadeus/testelasticsearch/controller/ElasticSearchController.java" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/.gradle/" />
     <ignored path="$PROJECT_DIR$/build/" />
@@ -155,7 +102,7 @@
         <entry file="file://$PROJECT_DIR$/test-elasticsearch/src/main/resources/application.yml">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="352">
-              <caret line="16" column="21" lean-forward="true" selection-start-line="16" selection-start-column="21" selection-end-line="16" selection-end-column="21" />
+              <caret line="16" column="21" selection-start-line="16" selection-start-column="21" selection-end-line="16" selection-end-column="21" />
             </state>
           </provider>
         </entry>
@@ -163,8 +110,8 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/test-elasticsearch/src/main/java/com/amadeus/testelasticsearch/config/ElasticSearchConfiguration.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="-505">
-              <caret line="29" column="44" lean-forward="true" selection-start-line="29" selection-start-column="44" selection-end-line="29" selection-end-column="44" />
+            <state relative-caret-position="749">
+              <caret line="87" selection-start-line="87" selection-end-line="87" />
               <folding>
                 <element signature="imports" expanded="true" />
                 <element signature="e#1178#1179#0" expanded="true" />
@@ -177,19 +124,10 @@
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/test-elasticsearch/src/test/java/com/amadeus/testelasticsearch/TestElasticsearchApplicationTests.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="286">
-              <caret line="16" lean-forward="true" selection-start-line="16" selection-end-line="16" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/test-elasticsearch/src/main/java/com/amadeus/testelasticsearch/controller/ElasticSearchController.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="396">
-              <caret line="18" column="28" selection-start-line="18" selection-start-column="28" selection-end-line="18" selection-end-column="28" />
+            <state relative-caret-position="225">
+              <caret line="33" column="5" lean-forward="true" selection-start-line="33" selection-start-column="5" selection-end-line="33" selection-end-column="5" />
               <folding>
                 <element signature="imports" expanded="true" />
               </folding>
@@ -198,10 +136,24 @@
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/test-elasticsearch/src/main/java/com/amadeus/testelasticsearch/entity/Employee.java">
+        <entry file="file://$PROJECT_DIR$/test-elasticsearch/src/main/java/com/amadeus/testelasticsearch/service/ElasticSearchService.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="44">
-              <caret line="2" column="16" selection-start-line="2" selection-start-column="16" selection-end-line="2" selection-end-column="16" />
+            <state relative-caret-position="66">
+              <caret line="3" lean-forward="true" selection-start-line="3" selection-end-line="3" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/test-elasticsearch/src/main/java/com/amadeus/testelasticsearch/service/impl/ElasticSearchServiceImpl.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="335">
+              <caret line="87" column="49" selection-start-line="87" selection-start-column="49" selection-end-line="87" selection-end-column="49" />
+              <folding>
+                <element signature="imports" expanded="true" />
+                <element signature="e#2054#2055#0" expanded="true" />
+                <element signature="e#2132#2133#0" expanded="true" />
+              </folding>
             </state>
           </provider>
         </entry>
@@ -276,8 +228,6 @@
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/amadeus-service-fastdfs/src/main/java/com/amadeus/fastdfs/service/impl/FileServiceImpl.java" />
-        <option value="$PROJECT_DIR$/amadeus-service-fastdfs/src/main/java/com/amadeus/fastdfs/service/FileService.java" />
         <option value="$PROJECT_DIR$/amadeus-service-fastdfs/src/main/resources/templates/index.html" />
         <option value="$PROJECT_DIR$/amadeus-service-fastdfs/src/main/java/com/amadeus/fastdfs/controller/PageController.java" />
         <option value="$PROJECT_DIR$/amadeus-service-fastdfs/src/main/resources/templates/home.html" />
@@ -324,9 +274,11 @@
         <option value="$PROJECT_DIR$/test-elasticsearch/src/main/java/com/amadeus/testelasticsearch/entity/Employee.java" />
         <option value="$PROJECT_DIR$/test-elasticsearch/pom.xml" />
         <option value="$PROJECT_DIR$/test-elasticsearch/src/test/java/com/amadeus/testelasticsearch/TestElasticsearchApplicationTests.java" />
-        <option value="$PROJECT_DIR$/test-elasticsearch/src/main/java/com/amadeus/testelasticsearch/config/ElasticSearchConfiguration.java" />
         <option value="$PROJECT_DIR$/test-elasticsearch/src/main/resources/application.yml" />
+        <option value="$PROJECT_DIR$/test-elasticsearch/src/main/java/com/amadeus/testelasticsearch/config/ElasticSearchConfiguration.java" />
+        <option value="$PROJECT_DIR$/test-elasticsearch/src/main/java/com/amadeus/testelasticsearch/service/ElasticSearchService.java" />
         <option value="$PROJECT_DIR$/test-elasticsearch/src/main/java/com/amadeus/testelasticsearch/controller/ElasticSearchController.java" />
+        <option value="$PROJECT_DIR$/test-elasticsearch/src/main/java/com/amadeus/testelasticsearch/service/impl/ElasticSearchServiceImpl.java" />
       </list>
     </option>
   </component>
@@ -384,75 +336,6 @@
             <path>
               <item name="amadeus" type="b2602c69:ProjectViewProjectNode" />
               <item name="amadeus" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="amadeus" type="b2602c69:ProjectViewProjectNode" />
-              <item name="amadeus" type="462c0819:PsiDirectoryNode" />
-              <item name="test-elasticsearch" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="amadeus" type="b2602c69:ProjectViewProjectNode" />
-              <item name="amadeus" type="462c0819:PsiDirectoryNode" />
-              <item name="test-elasticsearch" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="amadeus" type="b2602c69:ProjectViewProjectNode" />
-              <item name="amadeus" type="462c0819:PsiDirectoryNode" />
-              <item name="test-elasticsearch" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="amadeus" type="b2602c69:ProjectViewProjectNode" />
-              <item name="amadeus" type="462c0819:PsiDirectoryNode" />
-              <item name="test-elasticsearch" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-              <item name="java" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="amadeus" type="b2602c69:ProjectViewProjectNode" />
-              <item name="amadeus" type="462c0819:PsiDirectoryNode" />
-              <item name="test-elasticsearch" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-              <item name="java" type="462c0819:PsiDirectoryNode" />
-              <item name="testelasticsearch" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="amadeus" type="b2602c69:ProjectViewProjectNode" />
-              <item name="amadeus" type="462c0819:PsiDirectoryNode" />
-              <item name="test-elasticsearch" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-              <item name="java" type="462c0819:PsiDirectoryNode" />
-              <item name="testelasticsearch" type="462c0819:PsiDirectoryNode" />
-              <item name="config" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="amadeus" type="b2602c69:ProjectViewProjectNode" />
-              <item name="amadeus" type="462c0819:PsiDirectoryNode" />
-              <item name="test-elasticsearch" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="test" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="amadeus" type="b2602c69:ProjectViewProjectNode" />
-              <item name="amadeus" type="462c0819:PsiDirectoryNode" />
-              <item name="test-elasticsearch" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="test" type="462c0819:PsiDirectoryNode" />
-              <item name="java" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="amadeus" type="b2602c69:ProjectViewProjectNode" />
-              <item name="amadeus" type="462c0819:PsiDirectoryNode" />
-              <item name="test-elasticsearch" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="test" type="462c0819:PsiDirectoryNode" />
-              <item name="java" type="462c0819:PsiDirectoryNode" />
-              <item name="testelasticsearch" type="462c0819:PsiDirectoryNode" />
             </path>
           </expand>
           <select />
@@ -522,7 +405,7 @@
         </RuleState>
       </list>
     </option>
-    <option name="contentProportion" value="0.19382782" />
+    <option name="contentProportion" value="0.18870057" />
   </component>
   <component name="RunManager" selected="Spring Boot.TestElasticsearchApplication">
     <configuration name="BCryptPasswordUtil" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
@@ -803,7 +686,7 @@
       <workItem from="1560299547258" duration="740000" />
       <workItem from="1560300355212" duration="6696000" />
       <workItem from="1560307840939" duration="105000" />
-      <workItem from="1560309393215" duration="3783000" />
+      <workItem from="1560309393215" duration="16117000" />
     </task>
     <task id="LOCAL-00001" summary="es测试项目">
       <created>1560244484716</created>
@@ -840,7 +723,14 @@
       <option name="project" value="LOCAL" />
       <updated>1560245251343</updated>
     </task>
-    <option name="localTasksCounter" value="6" />
+    <task id="LOCAL-00006" summary="amadeus在线教育平台">
+      <created>1560319829431</created>
+      <option name="number" value="00006" />
+      <option name="presentableId" value="LOCAL-00006" />
+      <option name="project" value="LOCAL" />
+      <updated>1560319829431</updated>
+    </task>
+    <option name="localTasksCounter" value="7" />
     <servers />
   </component>
   <component name="TestHistory">
@@ -876,7 +766,7 @@
     </history-entry>
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="565869000" />
+    <option name="totallyTimeSpent" value="578203000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-7" y="0" width="974" height="1047" extended-state="0" />
@@ -886,7 +776,7 @@
       <window_info id="Designer" order="2" />
       <window_info id="UI Designer" order="3" />
       <window_info id="Favorites" order="4" side_tool="true" />
-      <window_info content_ui="combo" id="Project" order="5" sideWeight="0.49879518" weight="0.36363637" />
+      <window_info active="true" content_ui="combo" id="Project" order="5" sideWeight="0.49879518" visible="true" weight="0.36363637" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Find" order="1" weight="0.3281471" />
       <window_info anchor="bottom" id="Run" order="2" weight="0.4837341" />
@@ -896,7 +786,7 @@
       <window_info anchor="bottom" id="TODO" order="6" />
       <window_info anchor="bottom" id="Docker" order="7" show_stripe_button="false" />
       <window_info anchor="bottom" id="Version Control" order="8" sideWeight="0.49706668" weight="0.329718" />
-      <window_info active="true" anchor="bottom" id="Run Dashboard" order="9" sideWeight="0.496" visible="true" weight="0.42387733" />
+      <window_info anchor="bottom" id="Run Dashboard" order="9" sideWeight="0.496" visible="true" weight="0.42278203" />
       <window_info anchor="bottom" id="Database Changes" order="10" />
       <window_info anchor="bottom" id="Spring" order="11" />
       <window_info anchor="bottom" id="Terminal" order="12" />
@@ -977,47 +867,6 @@
     <option name="FILTER_TARGETS" value="false" />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/amadeus-framework-model/src/main/java/com/amadeus/framework/domain/teacher/TeacherLoginResult.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="374">
-          <caret line="17" column="36" lean-forward="true" selection-start-line="17" selection-start-column="36" selection-end-line="17" selection-end-column="36" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/amadeus-service-fastdfs/src/main/java/com/amadeus/fastdfs/utils/CommonFileUtil.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="235">
-          <caret line="46" column="7" lean-forward="true" selection-start-line="46" selection-start-column="7" selection-end-line="46" selection-end-column="7" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/amadeus-service-api/src/main/java/com/amadeus/api/sso/SSOApi.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="264">
-          <caret line="12" lean-forward="true" selection-start-line="12" selection-end-line="12" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/amadeus-service-sso/src/main/java/com/amadeus/sso/dao/StudentLoginRepository.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="176">
-          <caret line="10" column="4" lean-forward="true" selection-start-line="10" selection-start-column="4" selection-end-line="10" selection-end-column="73" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/amadeus-service-sso/src/main/java/com/amadeus/sso/dao/TeacherLoginRepository.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="154">
-          <caret line="7" column="73" lean-forward="true" selection-start-line="7" selection-start-column="73" selection-end-line="7" selection-end-column="73" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/amadeus-service-sso/src/main/java/com/amadeus/sso/service/StudentService.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="107">
@@ -1283,13 +1132,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/test-elasticsearch/src/main/java/com/amadeus/testelasticsearch/entity/Employee.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="44">
-          <caret line="2" column="16" selection-start-line="2" selection-start-column="16" selection-end-line="2" selection-end-column="16" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/test-elasticsearch/pom.xml">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="441">
@@ -1300,14 +1142,52 @@
     <entry file="file://$PROJECT_DIR$/test-elasticsearch/src/main/resources/application.yml">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="352">
-          <caret line="16" column="21" lean-forward="true" selection-start-line="16" selection-start-column="21" selection-end-line="16" selection-end-column="21" />
+          <caret line="16" column="21" selection-start-line="16" selection-start-column="21" selection-end-line="16" selection-end-column="21" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://D:/Tools/apache-maven-3.6.1/repository/org/elasticsearch/elasticsearch/7.1.1/elasticsearch-7.1.1.jar!/org/elasticsearch/index/mapper/ObjectMapper.class">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="229">
+          <caret line="48" column="4" selection-start-line="48" selection-start-column="4" selection-end-line="48" selection-end-column="4" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://D:/Tools/apache-maven-3.6.1/repository/org/elasticsearch/client/elasticsearch-rest-high-level-client/7.1.1/elasticsearch-rest-high-level-client-7.1.1.jar!/org/elasticsearch/client/RestHighLevelClient.class">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="165">
+          <caret line="412" column="32" selection-start-line="412" selection-start-column="32" selection-end-line="412" selection-end-column="32" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/test-elasticsearch/src/test/java/com/amadeus/testelasticsearch/TestElasticsearchApplicationTests.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="286">
+          <caret line="16" selection-start-line="16" selection-end-line="16" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://D:/Tools/apache-maven-3.6.1/repository/org/springframework/spring-web/5.1.7.RELEASE/spring-web-5.1.7.RELEASE.jar!/org/springframework/web/method/support/InvocableHandlerMethod.class">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="167">
+          <caret line="101" selection-start-line="101" selection-end-line="101" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/test-elasticsearch/src/main/java/com/amadeus/testelasticsearch/entity/Employee.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="154">
+          <caret line="7" column="7" selection-start-line="7" selection-start-column="7" selection-end-line="7" selection-end-column="7" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/test-elasticsearch/src/main/java/com/amadeus/testelasticsearch/config/ElasticSearchConfiguration.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-505">
-          <caret line="29" column="44" lean-forward="true" selection-start-line="29" selection-start-column="44" selection-end-line="29" selection-end-column="44" />
+        <state relative-caret-position="749">
+          <caret line="87" selection-start-line="87" selection-end-line="87" />
           <folding>
             <element signature="imports" expanded="true" />
             <element signature="e#1178#1179#0" expanded="true" />
@@ -1318,19 +1198,31 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/test-elasticsearch/src/test/java/com/amadeus/testelasticsearch/TestElasticsearchApplicationTests.java">
+    <entry file="file://$PROJECT_DIR$/test-elasticsearch/src/main/java/com/amadeus/testelasticsearch/controller/ElasticSearchController.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="286">
-          <caret line="16" lean-forward="true" selection-start-line="16" selection-end-line="16" />
+        <state relative-caret-position="225">
+          <caret line="33" column="5" lean-forward="true" selection-start-line="33" selection-start-column="5" selection-end-line="33" selection-end-column="5" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/test-elasticsearch/src/main/java/com/amadeus/testelasticsearch/controller/ElasticSearchController.java">
+    <entry file="file://$PROJECT_DIR$/test-elasticsearch/src/main/java/com/amadeus/testelasticsearch/service/ElasticSearchService.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="396">
-          <caret line="18" column="28" selection-start-line="18" selection-start-column="28" selection-end-line="18" selection-end-column="28" />
+        <state relative-caret-position="66">
+          <caret line="3" lean-forward="true" selection-start-line="3" selection-end-line="3" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/test-elasticsearch/src/main/java/com/amadeus/testelasticsearch/service/impl/ElasticSearchServiceImpl.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="335">
+          <caret line="87" column="49" selection-start-line="87" selection-start-column="49" selection-end-line="87" selection-end-column="49" />
           <folding>
             <element signature="imports" expanded="true" />
+            <element signature="e#2054#2055#0" expanded="true" />
+            <element signature="e#2132#2133#0" expanded="true" />
           </folding>
         </state>
       </provider>

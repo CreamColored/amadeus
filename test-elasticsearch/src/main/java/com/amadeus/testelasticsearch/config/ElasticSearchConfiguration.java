@@ -1,7 +1,13 @@
 package com.amadeus.testelasticsearch.config;
 
 import org.apache.http.HttpHost;
+import org.apache.http.auth.AuthScope;
+import org.apache.http.auth.UsernamePasswordCredentials;
+import org.apache.http.client.CredentialsProvider;
+import org.apache.http.impl.client.BasicCredentialsProvider;
+import org.apache.http.impl.nio.client.HttpAsyncClientBuilder;
 import org.elasticsearch.client.RestClient;
+import org.elasticsearch.client.RestClientBuilder;
 import org.elasticsearch.client.RestHighLevelClient;
 import org.slf4j.Logger;
 import org.slf4j.LoggerFactory;
@@ -67,16 +73,17 @@ public class ElasticSearchConfiguration implements FactoryBean<RestHighLevelClie
         try {
             restHighLevelClient = new RestHighLevelClient(
                     RestClient.builder(
-                            new HttpHost(
-                                    clusterNodes.split(":")[0],
-                                    Integer.parseInt(clusterNodes.split(":")[1]),
-                                    "http"
-                            )
+                    new HttpHost(
+                            clusterNodes.split(":")[0],
+                            Integer.parseInt(clusterNodes.split(":")[1]),
+                            "http"
                     )
+            )
             );
         } catch (Exception e) {
             LOGGER.error(e.getMessage());
         }
         return restHighLevelClient;
     }
+
 }
