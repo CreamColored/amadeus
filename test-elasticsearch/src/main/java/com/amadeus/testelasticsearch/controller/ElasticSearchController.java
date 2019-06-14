@@ -34,7 +34,7 @@ public class ElasticSearchController {
     }
 
     @PutMapping("/indexDocument/{indexName}")
-    public void indexDocument(@PathVariable("indexName")String indexName) {
+    public void indexDocument(@PathVariable("indexName") String indexName) {
         elasticSearchService.indexDocument(indexName);
     }
 
@@ -53,4 +53,10 @@ public class ElasticSearchController {
         }
         return searchResponse;
     }
+
+    @GetMapping("/getDocument/{indexName}/{id}")
+    public void getDocument(@PathVariable("indexName") String indexName, @PathVariable("id") String id) {
+        elasticSearchService.getDocument(indexName, id);
+    }
+
 }
