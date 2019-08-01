@@ -3,3 +3,9 @@ server:
 spring:
   application:
     name: test-elasticsearch
+  data:
+    elasticsearch:
+      cluster-name: my-application
+      cluster-nodes: 127.0.0.1:9200
+      repositories:
+        enabled: true

@@ -2,34 +2,21 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="147d6a61-3116-42b8-9679-28709b494f42" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/test-elasticsearch/src/main/java/com/amadeus/testelasticsearch/controller/ElasticSearchController.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/test-elasticsearch/src/main/java/com/amadeus/testelasticsearch/dao/EmployeeRepository.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/test-elasticsearch/src/main/java/com/amadeus/testelasticsearch/entity/Employee.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/compiler.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/compiler.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/dataSources.local.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/dataSources.local.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/dataSources/6593a83d-4842-4a33-9839-29887f45d798.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/dataSources/6593a83d-4842-4a33-9839-29887f45d798.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/vcs.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/amadeus-service-fastdfs/amadeus-service-fastdfs.iml" beforeDir="false" afterPath="$PROJECT_DIR$/amadeus-service-fastdfs/amadeus-service-fastdfs.iml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/amadeus-service-sso/amadeus-service-sso.iml" beforeDir="false" afterPath="$PROJECT_DIR$/amadeus-service-sso/amadeus-service-sso.iml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/amadeus-service-web/amadeus-service-web.iml" beforeDir="false" afterPath="$PROJECT_DIR$/amadeus-service-web/amadeus-service-web.iml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/test-elasticsearch/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/test-elasticsearch/pom.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/test-elasticsearch/src/main/resources/application.yml" beforeDir="false" afterPath="$PROJECT_DIR$/test-elasticsearch/src/main/resources/application.yml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/test-elasticsearch/src/test/java/com/amadeus/testelasticsearch/TestElasticsearchApplicationTests.java" beforeDir="false" afterPath="$PROJECT_DIR$/test-elasticsearch/src/test/java/com/amadeus/testelasticsearch/TestElasticsearchApplicationTests.java" afterDir="false" />
     </list>
-    <ignored path="$PROJECT_DIR$/.gradle/" />
-    <ignored path="$PROJECT_DIR$/build/" />
-    <ignored path="$PROJECT_DIR$/out/" />
-    <ignored path="$PROJECT_DIR$/amadeus-framework-parent/target/" />
-    <ignored path="$PROJECT_DIR$/amadeus-framework-common/target/" />
-    <ignored path="$PROJECT_DIR$/amadeus-framework-utils/target/" />
-    <ignored path="$PROJECT_DIR$/amadeus-framework-model/target/" />
-    <ignored path="$PROJECT_DIR$/demo/target/" />
-    <ignored path="$PROJECT_DIR$/test/target/" />
-    <ignored path="$PROJECT_DIR$/test-fastdfs/target/" />
-    <ignored path="$PROJECT_DIR$/test-thymeleaf/target/" />
-    <ignored path="$PROJECT_DIR$/amadeus-service-api/target/" />
-    <ignored path="$PROJECT_DIR$/amadeus-eureka-center/target/" />
-    <ignored path="$PROJECT_DIR$/test-Bcyrpt/target/" />
-    <ignored path="$PROJECT_DIR$/test-bcrypt/target/" />
-    <ignored path="$PROJECT_DIR$/test-kafka/target/" />
-    <ignored path="$PROJECT_DIR$/test-kafka-consumer/target/" />
-    <ignored path="$PROJECT_DIR$/test-sms/target/" />
-    <ignored path="$PROJECT_DIR$/test-mysql/target/" />
-    <ignored path="$PROJECT_DIR$/test-mail/target/" />
-    <ignored path="$PROJECT_DIR$/test-student-login/target/" />
-    <ignored path="$PROJECT_DIR$/qcloudsms/target/" />
-    <ignored path="$PROJECT_DIR$/amadeus-service-sso/target/" />
-    <ignored path="$PROJECT_DIR$/amadeus-service-web/target/" />
-    <ignored path="$PROJECT_DIR$/amadeus-service-fastdfs/target/" />
-    <ignored path="$PROJECT_DIR$/test-elasticsearch/target/" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -75,28 +62,6 @@
   </component>
   <component name="DefaultGradleProjectSettings">
     <option name="isMigrated" value="true" />
-  </component>
-  <component name="FileEditorManager">
-    <leaf>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/test-elasticsearch/src/main/java/com/amadeus/testelasticsearch/TestElasticsearchApplication.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="110">
-              <caret line="6" column="13" selection-start-line="6" selection-start-column="13" selection-end-line="6" selection-end-column="13" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/test-elasticsearch/src/main/resources/application.yml">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="88">
-              <caret line="4" column="28" selection-start-line="4" selection-start-column="28" selection-end-line="4" selection-end-column="28" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-    </leaf>
   </component>
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
@@ -154,63 +119,6 @@
     <option name="ROOT_SYNC" value="DONT_SYNC" />
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
-  <component name="IdeDocumentHistory">
-    <option name="CHANGED_PATHS">
-      <list>
-        <option value="$PROJECT_DIR$/amadeus-service-web/src/main/java/com/amadeus/web/service/CourseService.java" />
-        <option value="$PROJECT_DIR$/amadeus-service-web/src/main/java/com/amadeus/web/service/impl/CourseServiceImpl.java" />
-        <option value="$PROJECT_DIR$/amadeus-service-web/src/main/java/com/amadeus/web/controller/CourseController.java" />
-        <option value="$PROJECT_DIR$/amadeus-framework-model/src/main/java/com/amadeus/framework/domain/course/CourseInfo.java" />
-        <option value="$PROJECT_DIR$/amadeus-service-sso/src/main/java/com/amadeus/sso/util/SendCodeResult.java" />
-        <option value="$PROJECT_DIR$/amadeus-framework-common/src/main/java/com/amadeus/framework/model/response/SendCodeResult.java" />
-        <option value="$PROJECT_DIR$/amadeus-service-fastdfs/src/main/java/com/amadeus/fastdfs/service/impl/FileServiceImpl.java" />
-        <option value="$PROJECT_DIR$/amadeus-service-fastdfs/src/main/java/com/amadeus/fastdfs/service/FileService.java" />
-        <option value="$PROJECT_DIR$/amadeus-service-fastdfs/src/main/resources/templates/index.html" />
-        <option value="$PROJECT_DIR$/amadeus-service-fastdfs/src/main/java/com/amadeus/fastdfs/controller/PageController.java" />
-        <option value="$PROJECT_DIR$/amadeus-service-fastdfs/src/main/resources/templates/home.html" />
-        <option value="$PROJECT_DIR$/amadeus-service-fastdfs/src/main/resources/application.yml" />
-        <option value="$PROJECT_DIR$/amadeus-service-fastdfs/src/main/java/com/amadeus/fastdfs/controller/FileController.java" />
-        <option value="$PROJECT_DIR$/amadeus-service-fastdfs/pom.xml" />
-        <option value="$PROJECT_DIR$/amadeus-service-fastdfs/src/main/java/com/amadeus/fastdfs/config/FdfsConfig.java" />
-        <option value="$PROJECT_DIR$/amadeus-service-fastdfs/src/main/java/com/amadeus/fastdfs/config/FdfsConfiguration.java" />
-        <option value="$PROJECT_DIR$/amadeus-service-fastdfs/src/main/java/com/amadeus/fastdfs/config/FeignSupportConfiguration.java" />
-        <option value="$PROJECT_DIR$/amadeus-service-web/src/main/java/com/amadeus/web/config/FeignSupportConfiguration.java" />
-        <option value="$PROJECT_DIR$/amadeus-service-web/pom.xml" />
-        <option value="$PROJECT_DIR$/amadeus-service-web/src/main/java/com/amadeus/web/client/FdfsClient.java" />
-        <option value="$PROJECT_DIR$/amadeus-service-web/src/main/java/com/amadeus/web/dao/StudentLoginMapper.java" />
-        <option value="$PROJECT_DIR$/amadeus-framework-model/src/main/java/com/amadeus/framework/domain/student/StudentInfo.java" />
-        <option value="$PROJECT_DIR$/amadeus-service-web/src/main/java/com/amadeus/web/dao/StudentInfoMapper.java" />
-        <option value="$PROJECT_DIR$/amadeus-service-web/src/main/resources/mapper/StudentInfoMapper.xml" />
-        <option value="$PROJECT_DIR$/amadeus-service-web/src/main/java/com/amadeus/web/dao/CourseCommentMapper.java" />
-        <option value="$PROJECT_DIR$/amadeus-service-web/src/main/java/com/amadeus/web/controller/StudentController.java" />
-        <option value="$PROJECT_DIR$/amadeus-service-web/src/main/java/com/amadeus/web/service/StudentService.java" />
-        <option value="$PROJECT_DIR$/amadeus-service-web/src/main/java/com/amadeus/web/service/impl/StudentServiceImpl.java" />
-        <option value="$PROJECT_DIR$/amadeus-service-sso/src/main/java/com/amadeus/sso/dao/AdminInfoRepository.java" />
-        <option value="$PROJECT_DIR$/amadeus-service-sso/src/main/java/com/amadeus/sso/service/AdminService.java" />
-        <option value="$PROJECT_DIR$/amadeus-service-sso/src/main/java/com/amadeus/sso/service/impl/AdminServiceImpl.java" />
-        <option value="$PROJECT_DIR$/amadeus-framework-model/src/main/java/com/amadeus/framework/domain/admin/AdminLoginResult.java" />
-        <option value="$PROJECT_DIR$/amadeus-framework-model/src/main/java/com/amadeus/framework/domain/teacher/TeacherLoginResult.java" />
-        <option value="$PROJECT_DIR$/amadeus-service-api/src/main/java/com/amadeus/api/sso/SSOApi.java" />
-        <option value="$PROJECT_DIR$/amadeus-service-sso/src/main/java/com/amadeus/sso/dao/TeacherLoginRepository.java" />
-        <option value="$PROJECT_DIR$/amadeus-service-sso/src/main/java/com/amadeus/sso/service/TeacherService.java" />
-        <option value="$PROJECT_DIR$/amadeus-service-sso/src/main/java/com/amadeus/sso/service/impl/StudentServiceImpl.java" />
-        <option value="$PROJECT_DIR$/amadeus-service-sso/src/main/java/com/amadeus/sso/service/impl/TeacherServiceImpl.java" />
-        <option value="$PROJECT_DIR$/amadeus-service-sso/src/main/java/com/amadeus/sso/controller/SSOController.java" />
-        <option value="$PROJECT_DIR$/amadeus-framework-model/src/main/java/com/amadeus/framework/domain/student/StudentLogin.java" />
-        <option value="$PROJECT_DIR$/amadeus-service-web/src/main/resources/mapper/TeacherLoginMapper.xml" />
-        <option value="$PROJECT_DIR$/amadeus-service-web/src/main/resources/mapper/StudentLoginMapper.xml" />
-        <option value="$PROJECT_DIR$/amadeus-service-web/src/main/resources/mapper/CourseCommentMapper.xml" />
-        <option value="$PROJECT_DIR$/amadeus-service-web/src/main/resources/mapper/CourseInfoMapper.xml" />
-        <option value="$PROJECT_DIR$/amadeus-service-web/src/main/resources/mapper/OrderInfoMapper.xml" />
-        <option value="$PROJECT_DIR$/amadeus-framework-model/src/main/java/com/amadeus/framework/domain/teacher/TeacherInfo.java" />
-        <option value="$PROJECT_DIR$/amadeus-framework-model/src/main/java/com/amadeus/framework/domain/teacher/TeacherLogin.java" />
-        <option value="$PROJECT_DIR$/amadeus-framework-model/src/main/java/com/amadeus/framework/domain/college/CollegeInfo.java" />
-        <option value="$PROJECT_DIR$/test-kafka-consumer/src/main/resources/application.yml" />
-        <option value="$PROJECT_DIR$/test-kafka/src/main/resources/application.yml" />
-        <option value="$PROJECT_DIR$/test-elasticsearch/src/main/resources/application.yml" />
-      </list>
-    </option>
-  </component>
   <component name="JsbtTreeLayoutManager">
     <layout place="tools.popupGrunt">
       <scroll-view-position x="0" y="0" />
@@ -231,85 +139,9 @@
       </MavenImportingSettings>
     </option>
   </component>
-  <component name="MavenProjectNavigator">
-    <treeState>
-      <expand>
-        <path>
-          <item name="" type="16c1761:MavenProjectsStructure$RootNode" />
-          <item name="amadeus-eureka-center" type="9519ce18:MavenProjectsStructure$ProjectNode" />
-        </path>
-      </expand>
-      <select />
-    </treeState>
-  </component>
-  <component name="ProjectFrameBounds" extendedState="6">
-    <option name="x" value="953" />
-    <option name="width" value="974" />
-    <option name="height" value="1047" />
-  </component>
-  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
-  <component name="ProjectView">
-    <navigator proportions="" version="1">
-      <foldersAlwaysOnTop value="true" />
-    </navigator>
-    <panes>
-      <pane id="PackagesPane" />
-      <pane id="ProjectPane">
-        <subPane>
-          <expand>
-            <path>
-              <item name="amadeus" type="b2602c69:ProjectViewProjectNode" />
-              <item name="amadeus" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="amadeus" type="b2602c69:ProjectViewProjectNode" />
-              <item name="amadeus" type="462c0819:PsiDirectoryNode" />
-              <item name="test-elasticsearch" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="amadeus" type="b2602c69:ProjectViewProjectNode" />
-              <item name="amadeus" type="462c0819:PsiDirectoryNode" />
-              <item name="test-elasticsearch" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="amadeus" type="b2602c69:ProjectViewProjectNode" />
-              <item name="amadeus" type="462c0819:PsiDirectoryNode" />
-              <item name="test-elasticsearch" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="amadeus" type="b2602c69:ProjectViewProjectNode" />
-              <item name="amadeus" type="462c0819:PsiDirectoryNode" />
-              <item name="test-elasticsearch" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-              <item name="java" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="amadeus" type="b2602c69:ProjectViewProjectNode" />
-              <item name="amadeus" type="462c0819:PsiDirectoryNode" />
-              <item name="test-elasticsearch" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-              <item name="java" type="462c0819:PsiDirectoryNode" />
-              <item name="testelasticsearch" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="amadeus" type="b2602c69:ProjectViewProjectNode" />
-              <item name="amadeus" type="462c0819:PsiDirectoryNode" />
-              <item name="test-elasticsearch" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-              <item name="resources" type="462c0819:PsiDirectoryNode" />
-            </path>
-          </expand>
-          <select />
-        </subPane>
-      </pane>
-      <pane id="Scope" />
-    </panes>
+  <component name="ProjectId" id="1OpPUp31nG8uNWzvbZCt8aL2Agv" />
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true">
+    <ConfirmationsSetting value="2" id="Add" />
   </component>
   <component name="PropertiesComponent">
     <property name="DatabaseDriversLRU" value="mysql" />
@@ -325,15 +157,15 @@
     <property name="database.console.LAST_STATE" value="true" />
     <property name="jdk.selected.JAVA_MODULE" value="1.8" />
     <property name="last.edited.regexp" value="" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/test-mail" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
     <property name="nodejs_interpreter_path.stuck_in_default_project" value="undefined stuck path" />
     <property name="nodejs_npm_path_reset_for_default_project" value="true" />
     <property name="nodejs_package_manager_path" value="npm" />
-    <property name="project.structure.last.edited" value="Modules" />
+    <property name="project.structure.last.edited" value="Project" />
     <property name="project.structure.proportion" value="0.15039062" />
     <property name="project.structure.side.proportion" value="0.5126437" />
     <property name="restartRequiresConfirmation" value="false" />
-    <property name="settings.editor.selected.configurable" value="preferences.jms.messenger" />
+    <property name="settings.editor.selected.configurable" value="reference.projectsettings.compiler.annotationProcessors" />
   </component>
   <component name="RecentsManager">
     <key name="MoveFile.RECENT_KEYS">
@@ -373,7 +205,7 @@
     </option>
     <option name="contentProportion" value="0.24063401" />
   </component>
-  <component name="RunManager" selected="Spring Boot.TestKafkaConsumerApplication">
+  <component name="RunManager" selected="Spring Boot.TestElasticsearchApplication">
     <configuration name="BCryptPasswordUtil" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="com.amadeus.framework.utils.BCryptPasswordUtil" />
       <module name="amadeus-framework-utils" />
@@ -396,6 +228,22 @@
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="TestElasticsearchApplicationTests.add" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="test-elasticsearch" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.amadeus.testelasticsearch.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="com.amadeus.testelasticsearch" />
+      <option name="MAIN_CLASS_NAME" value="com.amadeus.testelasticsearch.TestElasticsearchApplicationTests" />
+      <option name="METHOD_NAME" value="add" />
+      <option name="TEST_OBJECT" value="method" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
@@ -497,6 +345,7 @@
     <list>
       <item itemvalue="Application.UUIDUtil" />
       <item itemvalue="Application.BCryptPasswordUtil" />
+      <item itemvalue="JUnit.TestElasticsearchApplicationTests.add" />
       <item itemvalue="Spring Boot.Eureka01" />
       <item itemvalue="Spring Boot.Eureka02" />
       <item itemvalue="Spring Boot.TestFastDFSApplication" />
@@ -510,6 +359,7 @@
     </list>
     <recent_temporary>
       <list>
+        <item itemvalue="JUnit.TestElasticsearchApplicationTests.add" />
         <item itemvalue="Application.BCryptPasswordUtil" />
         <item itemvalue="Application.UUIDUtil" />
         <item itemvalue="Spring Boot.WebApplication" />
@@ -638,46 +488,23 @@
       <workItem from="1558587824584" duration="2740000" />
       <workItem from="1558702287790" duration="443000" />
       <workItem from="1558707153992" duration="34299000" />
-      <workItem from="1560213089393" duration="1414000" />
-      <workItem from="1560221001731" duration="1554000" />
-      <workItem from="1560233185580" duration="40000" />
-      <workItem from="1560233230398" duration="54000" />
-      <workItem from="1560233290198" duration="71000" />
-      <workItem from="1560233407862" duration="2000" />
-      <workItem from="1560233750320" duration="1877000" />
-      <workItem from="1560243531423" duration="1625000" />
+      <workItem from="1560175854515" duration="460000" />
+      <workItem from="1560260971233" duration="1175000" />
+      <workItem from="1560262153207" duration="737000" />
+      <workItem from="1560265398542" duration="802000" />
+      <workItem from="1564671595204" duration="811000" />
     </task>
-    <task id="LOCAL-00001" summary="es测试项目">
-      <created>1560244484716</created>
+    <task id="LOCAL-00001" summary="amadeus在线教育平台系统">
+      <created>1560176079992</created>
       <option name="number" value="00001" />
       <option name="presentableId" value="LOCAL-00001" />
       <option name="project" value="LOCAL" />
-      <updated>1560244484716</updated>
+      <updated>1560176079992</updated>
     </task>
-    <task id="LOCAL-00002" summary="amadeus在线教育平台">
-      <created>1560244684236</created>
-      <option name="number" value="00002" />
-      <option name="presentableId" value="LOCAL-00002" />
-      <option name="project" value="LOCAL" />
-      <updated>1560244684236</updated>
-    </task>
-    <task id="LOCAL-00003" summary="amadeus在线教育平台">
-      <created>1560244786307</created>
-      <option name="number" value="00003" />
-      <option name="presentableId" value="LOCAL-00003" />
-      <option name="project" value="LOCAL" />
-      <updated>1560244786307</updated>
-    </task>
-    <option name="localTasksCounter" value="4" />
+    <option name="localTasksCounter" value="2" />
     <servers />
   </component>
   <component name="TestHistory">
-    <history-entry file="TestFastDFS_testUploadFile - 2019.04.28 at 09h 45m 03s.xml">
-      <configuration name="TestFastDFS.testUploadFile" configurationId="JUnit" />
-    </history-entry>
-    <history-entry file="TestFastDFS_testUploadFile - 2019.04.28 at 09h 51m 48s.xml">
-      <configuration name="TestFastDFS.testUploadFile" configurationId="JUnit" />
-    </history-entry>
     <history-entry file="TestFastDFS_testUploadFile - 2019.04.28 at 11h 05m 03s.xml">
       <configuration name="TestFastDFS.testUploadFile" configurationId="JUnit" />
     </history-entry>
@@ -702,91 +529,33 @@
     <history-entry file="TestMailApplicationTests_sendSimpleMail - 2019.05.07 at 08h 25m 18s.xml">
       <configuration name="TestMailApplicationTests.sendSimpleMail" configurationId="JUnit" />
     </history-entry>
-  </component>
-  <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="547560000" />
-  </component>
-  <component name="ToolWindowManager">
-    <frame x="-8" y="-8" width="1936" height="1056" extended-state="6" />
-    <editor active="true" />
-    <layout>
-      <window_info id="Structure" order="0" sideWeight="0.50120485" side_tool="true" weight="0.23004694" />
-      <window_info id="Web" order="1" side_tool="true" />
-      <window_info id="Designer" order="2" />
-      <window_info id="UI Designer" order="3" />
-      <window_info id="Favorites" order="4" side_tool="true" />
-      <window_info active="true" content_ui="combo" id="Project" order="5" sideWeight="0.49879518" visible="true" weight="0.16266666" />
-      <window_info anchor="bottom" id="Message" order="0" />
-      <window_info anchor="bottom" id="Find" order="1" weight="0.3281471" />
-      <window_info anchor="bottom" id="Run" order="2" weight="0.4837341" />
-      <window_info anchor="bottom" id="Debug" order="3" weight="0.42291373" />
-      <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
-      <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
-      <window_info anchor="bottom" id="TODO" order="6" />
-      <window_info anchor="bottom" id="Docker" order="7" show_stripe_button="false" />
-      <window_info anchor="bottom" id="Version Control" order="8" sideWeight="0.49706668" visible="true" weight="0.329718" />
-      <window_info anchor="bottom" id="Run Dashboard" order="9" sideWeight="0.49564052" weight="0.42903575" />
-      <window_info anchor="bottom" id="Database Changes" order="10" />
-      <window_info anchor="bottom" id="Spring" order="11" />
-      <window_info anchor="bottom" id="Terminal" order="12" />
-      <window_info anchor="bottom" id="Event Log" order="13" sideWeight="0.5029333" side_tool="true" weight="0.329718" />
-      <window_info anchor="bottom" id="Messages" order="14" weight="0.30911064" />
-      <window_info anchor="bottom" id="Java Enterprise" order="15" />
-      <window_info anchor="bottom" id="SBT Console" order="16" weight="0.32956153" />
-      <window_info anchor="bottom" id="Database Console" order="17" weight="0.32956153" />
-      <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
-      <window_info anchor="right" id="Ant Build" order="1" weight="0.24949698" />
-      <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.24949698" />
-      <window_info anchor="right" id="Palette" order="3" />
-      <window_info anchor="right" id="Maven" order="4" weight="0.30933332" />
-      <window_info anchor="right" id="Bean Validation" order="5" />
-      <window_info anchor="right" id="Database" order="6" weight="0.32906666" />
-      <window_info anchor="right" id="Palette&#9;" order="7" />
-      <window_info anchor="right" id="Jms Messenger" order="8" weight="0.32906666" />
-    </layout>
-    <layout-to-restore>
-      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.22855228" />
-      <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
-      <window_info id="Web" order="2" side_tool="true" />
-      <window_info id="Designer" order="3" />
-      <window_info id="UI Designer" order="4" />
-      <window_info id="Favorites" order="5" side_tool="true" />
-      <window_info anchor="bottom" id="Message" order="0" />
-      <window_info anchor="bottom" id="Find" order="1" weight="0.32936078" />
-      <window_info anchor="bottom" id="Run" order="2" />
-      <window_info anchor="bottom" id="Debug" order="3" weight="0.4893918" />
-      <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
-      <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
-      <window_info anchor="bottom" id="TODO" order="6" />
-      <window_info anchor="bottom" id="Docker" order="7" show_stripe_button="false" />
-      <window_info anchor="bottom" id="Version Control" order="8" />
-      <window_info anchor="bottom" id="Run Dashboard" order="9" visible="true" weight="0.582744" />
-      <window_info anchor="bottom" id="Database Changes" order="10" />
-      <window_info anchor="bottom" id="Spring" order="11" />
-      <window_info anchor="bottom" id="Terminal" order="12" />
-      <window_info anchor="bottom" id="Event Log" order="13" side_tool="true" weight="0.32956153" />
-      <window_info anchor="bottom" id="Java Enterprise" order="14" />
-      <window_info anchor="bottom" id="Messages" order="15" />
-      <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
-      <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
-      <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
-      <window_info anchor="right" id="Palette" order="3" />
-      <window_info anchor="right" id="Maven" order="4" weight="0.21715818" />
-      <window_info anchor="right" id="Bean Validation" order="5" />
-      <window_info anchor="right" id="Database" order="6" />
-      <window_info anchor="right" id="Palette&#9;" order="7" />
-    </layout-to-restore>
+    <history-entry file="TestElasticsearchApplicationTests_add - 2019.06.11 at 22h 07m 08s.xml">
+      <configuration name="TestElasticsearchApplicationTests.add" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="TestElasticsearchApplicationTests_add - 2019.06.11 at 22h 07m 17s.xml">
+      <configuration name="TestElasticsearchApplicationTests.add" configurationId="JUnit" />
+    </history-entry>
   </component>
   <component name="TypeScriptGeneratedFilesManager">
     <option name="version" value="1" />
+  </component>
+  <component name="Vcs.Log.Tabs.Properties">
+    <option name="TAB_STATES">
+      <map>
+        <entry key="MAIN">
+          <value>
+            <State />
+          </value>
+        </entry>
+      </map>
+    </option>
   </component>
   <component name="VcsManagerConfiguration">
     <ignored-roots>
       <path value="$PROJECT_DIR$/qcloudsms" />
     </ignored-roots>
-    <MESSAGE value="es测试项目" />
-    <MESSAGE value="amadeus在线教育平台" />
-    <option name="LAST_COMMIT_MESSAGE" value="amadeus在线教育平台" />
+    <MESSAGE value="amadeus在线教育平台系统" />
+    <option name="LAST_COMMIT_MESSAGE" value="amadeus在线教育平台系统" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
@@ -794,7 +563,6 @@
         <line-breakpoint enabled="true" type="java-line">
           <url>file://$PROJECT_DIR$/test-fastdfs/src/test/java/com/amadeus/test/fastdfs/TestFastDFS.java</url>
           <line>21</line>
-          <properties />
           <option name="timeStamp" value="3" />
         </line-breakpoint>
       </breakpoints>
@@ -803,447 +571,5 @@
   <component name="antWorkspaceConfiguration">
     <option name="IS_AUTOSCROLL_TO_SOURCE" value="false" />
     <option name="FILTER_TARGETS" value="false" />
-  </component>
-  <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/amadeus-service-web/src/main/java/com/amadeus/web/service/impl/StudentServiceImpl.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="187">
-          <caret line="183" lean-forward="true" selection-start-line="183" selection-end-line="183" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/amadeus-service-sso/src/main/java/com/amadeus/sso/service/impl/AdminServiceImpl.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="352">
-          <caret line="24" lean-forward="true" selection-start-line="24" selection-end-line="24" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/amadeus-framework-common/src/main/java/com/amadeus/framework/model/response/CommonCode.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="176">
-          <caret line="8" column="4" selection-start-line="8" selection-start-column="4" selection-end-line="8" selection-end-column="4" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/amadeus-service-sso/src/main/java/com/amadeus/sso/service/AdminService.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="264">
-          <caret line="14" column="7" lean-forward="true" selection-start-line="14" selection-start-column="7" selection-end-line="14" selection-end-column="7" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/amadeus-service-sso/src/main/java/com/amadeus/sso/dao/AdminInfoRepository.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="132">
-          <caret line="8" column="70" lean-forward="true" selection-start-line="8" selection-start-column="70" selection-end-line="8" selection-end-column="70" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/amadeus-service-web/src/main/java/com/amadeus/web/controller/AdminController.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="195">
-          <caret line="17" column="14" lean-forward="true" selection-start-line="17" selection-start-column="14" selection-end-line="17" selection-end-column="14" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/amadeus-framework-model/src/main/java/com/amadeus/framework/domain/student/StudentLoginResult.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="88">
-          <caret line="13" column="51" selection-start-line="13" selection-start-column="32" selection-end-line="13" selection-end-column="51" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/amadeus-framework-model/src/main/java/com/amadeus/framework/domain/teacher/TeacherLoginResult.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="374">
-          <caret line="17" column="36" lean-forward="true" selection-start-line="17" selection-start-column="36" selection-end-line="17" selection-end-column="36" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/amadeus-service-fastdfs/src/main/java/com/amadeus/fastdfs/utils/CommonFileUtil.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="235">
-          <caret line="46" column="7" lean-forward="true" selection-start-line="46" selection-start-column="7" selection-end-line="46" selection-end-column="7" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/amadeus-service-api/src/main/java/com/amadeus/api/sso/SSOApi.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="264">
-          <caret line="12" lean-forward="true" selection-start-line="12" selection-end-line="12" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/amadeus-service-sso/src/main/java/com/amadeus/sso/dao/StudentLoginRepository.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="176">
-          <caret line="10" column="4" lean-forward="true" selection-start-line="10" selection-start-column="4" selection-end-line="10" selection-end-column="73" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/amadeus-service-sso/src/main/java/com/amadeus/sso/dao/TeacherLoginRepository.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="154">
-          <caret line="7" column="73" lean-forward="true" selection-start-line="7" selection-start-column="73" selection-end-line="7" selection-end-column="73" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/amadeus-service-sso/src/main/java/com/amadeus/sso/service/StudentService.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="107">
-          <caret line="9" column="4" selection-start-line="9" selection-start-column="4" selection-end-line="14" selection-end-column="73" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/amadeus-service-sso/src/main/java/com/amadeus/sso/service/TeacherService.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="44">
-          <caret line="2" column="57" selection-start-line="2" selection-start-column="57" selection-end-line="2" selection-end-column="57" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/amadeus-service-sso/src/main/java/com/amadeus/sso/service/impl/StudentServiceImpl.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="308">
-          <caret line="23" column="13" lean-forward="true" selection-start-line="23" selection-start-column="13" selection-end-line="23" selection-end-column="13" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/amadeus-framework-model/src/main/java/com/amadeus/framework/domain/student/StudentLogin.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="491">
-          <caret line="43" column="25" lean-forward="true" selection-start-line="43" selection-start-column="25" selection-end-line="43" selection-end-column="25" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/amadeus-service-web/src/main/resources/mapper/AdminInfoMapper.xml">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/amadeus-service-web/src/main/resources/mapper/CourseCommentMapper.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="198">
-          <caret line="24" column="78" selection-start-line="24" selection-start-column="78" selection-end-line="24" selection-end-column="78" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/amadeus-service-web/src/main/resources/mapper/CourseImageMapper.xml">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/amadeus-service-web/src/main/resources/mapper/CourseInfoMapper.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="484">
-          <caret line="37" column="78" selection-start-line="37" selection-start-column="78" selection-end-line="37" selection-end-column="78" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/amadeus-service-web/src/main/resources/mapper/CourseVideoMapper.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="528">
-          <caret line="24" column="87" lean-forward="true" selection-start-line="24" selection-start-column="87" selection-end-line="24" selection-end-column="87" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/amadeus-service-web/src/main/resources/mapper/StudentInfoMapper.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="1166">
-          <caret line="53" column="13" lean-forward="true" selection-start-line="53" selection-start-column="13" selection-end-line="53" selection-end-column="13" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/amadeus-service-web/src/main/resources/mapper/StudentLoginMapper.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="572">
-          <caret line="26" column="85" lean-forward="true" selection-start-line="26" selection-start-column="85" selection-end-line="26" selection-end-column="85" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/amadeus-service-web/src/main/resources/mapper/TeacherInfoMapper.xml">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/amadeus-service-web/src/main/resources/mapper/TeacherLoginMapper.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="308">
-          <caret line="14" column="28" lean-forward="true" selection-start-line="14" selection-start-column="28" selection-end-line="14" selection-end-column="28" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar://D:/Tools/apache-maven-3.6.1/repository/org/springframework/spring-web/5.1.6.RELEASE/spring-web-5.1.6.RELEASE.jar!/org/springframework/web/method/support/InvocableHandlerMethod.class">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="114">
-          <caret line="101" selection-start-line="101" selection-end-line="101" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/amadeus-framework-utils/src/main/java/com/amadeus/framework/utils/BCryptPasswordUtil.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="103">
-          <caret line="17" column="110" lean-forward="true" selection-start-line="17" selection-start-column="110" selection-end-line="17" selection-end-column="170" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/amadeus-service-sso/src/main/java/com/amadeus/sso/service/impl/TeacherServiceImpl.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="154">
-          <caret line="13" column="14" selection-start-line="13" selection-start-column="14" selection-end-line="13" selection-end-column="14" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/amadeus-framework-utils/src/main/java/com/amadeus/framework/utils/PageBean.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="418">
-          <caret line="23" column="31" lean-forward="true" selection-start-line="23" selection-start-column="31" selection-end-line="23" selection-end-column="31" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/amadeus-framework-utils/target/classes/com/amadeus/framework/utils/PageBean.class">
-      <provider selected="true" editor-type-id="text-editor">
-        <state>
-          <folding>
-            <element signature="e#0#2068#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/amadeus-framework-parent/pom.xml">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/amadeus-service-api/pom.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="660">
-          <caret line="30" column="21" selection-start-line="30" selection-start-column="21" selection-end-line="30" selection-end-column="21" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/amadeus-service-web/pom.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="1892">
-          <caret line="86" column="21" selection-start-line="86" selection-start-column="21" selection-end-line="86" selection-end-column="21" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/amadeus-service-web/src/main/java/com/amadeus/web/service/impl/OrderServiceImpl.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="198">
-          <caret line="25" column="23" lean-forward="true" selection-start-line="25" selection-start-column="23" selection-end-line="25" selection-end-column="23" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/amadeus-service-web/src/main/resources/mapper/CollegeInfoMapper.xml">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/amadeus-framework-model/src/main/java/com/amadeus/framework/domain/teacher/TeacherInfo.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="946">
-          <caret line="54" column="15" selection-start-line="54" selection-start-column="15" selection-end-line="54" selection-end-column="15" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/amadeus-framework-model/src/main/java/com/amadeus/framework/domain/teacher/TeacherLogin.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="770">
-          <caret line="50" selection-start-line="50" selection-end-line="50" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/amadeus-framework-model/src/main/java/com/amadeus/framework/domain/college/CollegeInfo.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="968">
-          <caret line="54" column="1" selection-start-line="54" selection-start-column="1" selection-end-line="54" selection-end-column="1" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/amadeus-service-sso/src/main/java/com/amadeus/sso/controller/SSOController.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="2244">
-          <caret line="102" selection-start-line="102" selection-end-line="102" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/amadeus-service-web/src/main/resources/mapper/OrderInfoMapper.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="22">
-          <caret line="1" column="105" selection-start-line="1" selection-start-column="105" selection-end-line="1" selection-end-column="105" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/amadeus-framework-model/pom.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="396">
-          <caret line="18" column="7" selection-start-line="18" selection-start-column="7" selection-end-line="18" selection-end-column="7" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/amadeus-framework-model/src/main/java/com/amadeus/framework/domain/admin/AdminLoginResult.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="374">
-          <caret line="17" column="36" selection-start-line="17" selection-start-column="36" selection-end-line="17" selection-end-column="36" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/test-kafka/src/main/java/com/amadeus/testkafka/producer/KafkaProducer.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="132">
-          <caret line="13" column="13" selection-start-line="13" selection-start-column="13" selection-end-line="13" selection-end-column="13" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/test-kafka-consumer/src/main/java/com/amadeus/test/kafka/consumer/consumer/KafkaConsumer.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="242">
-          <caret line="12" column="13" selection-start-line="12" selection-start-column="13" selection-end-line="12" selection-end-column="13" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/test-kafka/src/main/java/com/amadeus/testkafka/TestKafkaApplication.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="242">
-          <caret line="16" lean-forward="true" selection-start-line="16" selection-end-line="16" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/test-kafka-consumer/src/main/resources/application.yml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="220">
-          <caret line="10" column="43" lean-forward="true" selection-start-line="10" selection-start-column="43" selection-end-line="10" selection-end-column="43" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/test-kafka/src/main/resources/application.yml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="88">
-          <caret line="4" column="36" lean-forward="true" selection-start-line="4" selection-start-column="23" selection-end-line="4" selection-end-column="36" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/test-kafka-consumer/src/main/java/com/amadeus/test/kafka/consumer/TestKafkaConsumerApplication.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="110">
-          <caret line="6" column="13" selection-start-line="6" selection-start-column="13" selection-end-line="6" selection-end-column="13" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/test-elasticsearch/test-elasticsearch.iml">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/test-elasticsearch/src/main/java/com/amadeus/testelasticsearch/TestElasticsearchApplication.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="110">
-          <caret line="6" column="13" selection-start-line="6" selection-start-column="13" selection-end-line="6" selection-end-column="13" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/test-elasticsearch/src/main/resources/application.yml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="88">
-          <caret line="4" column="28" selection-start-line="4" selection-start-column="28" selection-end-line="4" selection-end-column="28" />
-        </state>
-      </provider>
-    </entry>
-  </component>
-  <component name="masterDetails">
-    <states>
-      <state key="ArtifactsStructureConfigurable.UI">
-        <settings>
-          <artifact-editor />
-          <splitter-proportions>
-            <option name="proportions">
-              <list>
-                <option value="0.5126437" />
-              </list>
-            </option>
-          </splitter-proportions>
-        </settings>
-      </state>
-      <state key="FacetStructureConfigurable.UI">
-        <settings>
-          <last-edited>Spring</last-edited>
-          <splitter-proportions>
-            <option name="proportions">
-              <list>
-                <option value="0.5126437" />
-              </list>
-            </option>
-          </splitter-proportions>
-        </settings>
-      </state>
-      <state key="GlobalLibrariesConfigurable.UI">
-        <settings>
-          <splitter-proportions>
-            <option name="proportions">
-              <list>
-                <option value="0.2" />
-              </list>
-            </option>
-          </splitter-proportions>
-        </settings>
-      </state>
-      <state key="JdkListConfigurable.UI">
-        <settings>
-          <last-edited>1.8.0_202</last-edited>
-          <splitter-proportions>
-            <option name="proportions">
-              <list>
-                <option value="0.27701148" />
-              </list>
-            </option>
-          </splitter-proportions>
-        </settings>
-      </state>
-      <state key="ModuleStructureConfigurable.UI">
-        <settings>
-          <last-edited>test-elasticsearch</last-edited>
-          <splitter-proportions>
-            <option name="proportions">
-              <list>
-                <option value="0.5126437" />
-              </list>
-            </option>
-          </splitter-proportions>
-        </settings>
-      </state>
-      <state key="ProjectJDKs.UI">
-        <settings>
-          <last-edited>1.8</last-edited>
-          <splitter-proportions>
-            <option name="proportions">
-              <list>
-                <option value="0.2" />
-              </list>
-            </option>
-          </splitter-proportions>
-        </settings>
-      </state>
-      <state key="ProjectLibrariesConfigurable.UI">
-        <settings>
-          <last-edited>Maven: com.esotericsoftware:kryo-shaded:3.0.3</last-edited>
-          <splitter-proportions>
-            <option name="proportions">
-              <list>
-                <option value="0.5126437" />
-              </list>
-            </option>
-          </splitter-proportions>
-        </settings>
-      </state>
-    </states>
   </component>
 </project>

@@ -2,19 +2,20 @@
 <project version="4">
   <component name="CompilerConfiguration">
     <annotationProcessing>
+      <profile default="true" name="Default" enabled="true" />
       <profile name="Maven default annotation processors profile" enabled="true">
         <sourceOutputDir name="target/generated-sources/annotations" />
         <sourceTestOutputDir name="target/generated-test-sources/test-annotations" />
         <outputRelativeToContentRoot value="true" />
         <module name="amadeus-service-fastdfs" />
         <module name="test-kafka-consumer" />
-        <module name="amadeus-service-sso" />
+        <module name="amadeus-eureka-center" />
         <module name="test-kafka" />
         <module name="amadeus-framework-common" />
         <module name="amadeus-service-api" />
         <module name="amadeus-framework-parent" />
+        <module name="amadeus-service-sso" />
         <module name="test-elasticsearch" />
-        <module name="amadeus-eureka-center" />
         <module name="test-fastdfs" />
         <module name="test-mail" />
         <module name="amadeus-service-web" />
