@@ -1,22 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="147d6a61-3116-42b8-9679-28709b494f42" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/test-elasticsearch/src/main/java/com/amadeus/testelasticsearch/controller/ElasticSearchController.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/test-elasticsearch/src/main/java/com/amadeus/testelasticsearch/dao/EmployeeRepository.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/test-elasticsearch/src/main/java/com/amadeus/testelasticsearch/entity/Employee.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/compiler.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/compiler.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/dataSources.local.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/dataSources.local.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/dataSources/6593a83d-4842-4a33-9839-29887f45d798.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/dataSources/6593a83d-4842-4a33-9839-29887f45d798.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/vcs.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/amadeus-service-fastdfs/amadeus-service-fastdfs.iml" beforeDir="false" afterPath="$PROJECT_DIR$/amadeus-service-fastdfs/amadeus-service-fastdfs.iml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/amadeus-service-sso/amadeus-service-sso.iml" beforeDir="false" afterPath="$PROJECT_DIR$/amadeus-service-sso/amadeus-service-sso.iml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/amadeus-service-web/amadeus-service-web.iml" beforeDir="false" afterPath="$PROJECT_DIR$/amadeus-service-web/amadeus-service-web.iml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/test-elasticsearch/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/test-elasticsearch/pom.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/test-elasticsearch/src/main/resources/application.yml" beforeDir="false" afterPath="$PROJECT_DIR$/test-elasticsearch/src/main/resources/application.yml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/test-elasticsearch/src/test/java/com/amadeus/testelasticsearch/TestElasticsearchApplicationTests.java" beforeDir="false" afterPath="$PROJECT_DIR$/test-elasticsearch/src/test/java/com/amadeus/testelasticsearch/TestElasticsearchApplicationTests.java" afterDir="false" />
-    </list>
+    <list default="true" id="147d6a61-3116-42b8-9679-28709b494f42" name="Default Changelist" comment="" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -366,6 +351,16 @@
       </list>
     </recent_temporary>
   </component>
+  <component name="ServiceViewManager">
+    <option name="allServicesViewState">
+      <serviceView>
+        <treeState>
+          <expand />
+          <select />
+        </treeState>
+      </serviceView>
+    </option>
+  </component>
   <component name="SvnConfiguration">
     <configuration />
   </component>
@@ -544,7 +539,9 @@
       <map>
         <entry key="MAIN">
           <value>
-            <State />
+            <State>
+              <option name="COLUMN_ORDER" />
+            </State>
           </value>
         </entry>
       </map>
