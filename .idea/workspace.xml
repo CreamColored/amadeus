@@ -355,7 +355,12 @@
     <option name="allServicesViewState">
       <serviceView>
         <treeState>
-          <expand />
+          <expand>
+            <path>
+              <item name="services root" type="e789fda9:ObjectUtils$Sentinel" />
+              <item name="com.intellij.execution.services.ServiceModel$ServiceGroupNode@1dcfe90b" type="7427dc5b:ServiceModel$ServiceGroupNode" />
+            </path>
+          </expand>
           <select />
         </treeState>
       </serviceView>
@@ -488,6 +493,7 @@
       <workItem from="1560262153207" duration="737000" />
       <workItem from="1560265398542" duration="802000" />
       <workItem from="1564671595204" duration="811000" />
+      <workItem from="1564736960626" duration="327000" />
     </task>
     <task id="LOCAL-00001" summary="amadeus在线教育平台系统">
       <created>1560176079992</created>
@@ -503,7 +509,14 @@
       <option name="project" value="LOCAL" />
       <updated>1564736585506</updated>
     </task>
-    <option name="localTasksCounter" value="3" />
+    <task id="LOCAL-00003" summary="amadeus在线教育平台系统">
+      <created>1564736993039</created>
+      <option name="number" value="00003" />
+      <option name="presentableId" value="LOCAL-00003" />
+      <option name="project" value="LOCAL" />
+      <updated>1564736993039</updated>
+    </task>
+    <option name="localTasksCounter" value="4" />
     <servers />
   </component>
   <component name="TestHistory">
