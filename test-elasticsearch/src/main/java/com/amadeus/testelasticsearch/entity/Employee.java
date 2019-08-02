@@ -25,4 +25,5 @@ public class Employee implements Serializable {
 
     private Integer age = 0;
 
+    private String about;
 }
