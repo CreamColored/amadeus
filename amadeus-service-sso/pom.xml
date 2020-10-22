@@ -10,6 +10,7 @@
     </parent>
     <modelVersion>4.0.0</modelVersion>
 
+
     <artifactId>amadeus-service-sso</artifactId>
     <dependencies>
         <!--Reference other modules-->
